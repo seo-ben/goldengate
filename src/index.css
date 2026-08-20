@@ -1,0 +1,143 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-main: #fcfcfd;
+    --bg-card: #ffffff;
+    --border-light: #e2e8f0;
+    --border-gold: rgba(212, 175, 55, 0.3);
+    
+    --primary-blue: #0b1f44;
+    --secondary-blue: #1e3a8a;
+    --accent-gold: #c69214;
+    --accent-gold-light: #f5d061;
+    --whatsapp-green: #25d366;
+    
+    --text-heading: #091326;
+    --text-body: #475569;
+    --text-muted: #64748b;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--bg-main);
+    color: var(--text-body);
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-main);
+    color: var(--text-body);
+    overflow-x: hidden;
+  }
+
+  #root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.font-serif {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+.font-sans {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+/* Motif de fond blanc pointé architectural (Dot matrix pattern) */
+.bg-dot-pattern {
+  background-color: #fcfcfd;
+  background-image: radial-gradient(#cbd5e1 1.2px, transparent 1.2px);
+  background-size: 24px 24px;
+}
+
+.bg-dot-pattern-light {
+  background-color: #ffffff;
+  background-image: radial-gradient(#e2e8f0 1.2px, transparent 1.2px);
+  background-size: 20px 20px;
+}
+
+/* Cartes blanches luxueuses avec ombres subtiles */
+.luxury-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.05), 0 2px 6px -1px rgba(15, 23, 42, 0.03);
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.luxury-card:hover {
+  border-color: rgba(198, 146, 20, 0.4);
+  box-shadow: 0 20px 35px -5px rgba(15, 23, 42, 0.09), 0 10px 15px -3px rgba(15, 23, 42, 0.04);
+  transform: translateY(-4px);
+}
+
+/* Défilement horizontal infini Marquee des témoignages */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-33.333%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 32s linear infinite;
+}
+
+/* Effet de brillance lumineuse sur les boutons dorés & verts */
+@keyframes shine {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.btn-shine {
+  background-size: 200% auto;
+  transition: 0.5s;
+}
+.btn-shine:hover {
+  background-position: right center;
+}
+
+/* Ligne dorée qui s'étend */
+@keyframes expandWidth {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.animate-expand-width {
+  animation: expandWidth 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Custom Scrollbar Clair */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #f8fafc;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
