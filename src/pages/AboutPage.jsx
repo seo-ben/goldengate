@@ -1,6 +1,7 @@
 import React from 'react';
 import { getWhatsAppUrl } from '../config/constants';
 import { ScrollReveal } from '../components/ScrollReveal';
+import { RealWorkGallery } from '../components/RealWorkGallery';
 import { WhatsAppIcon, ShieldCheckIcon, SparklesIcon, CrownIcon, ClockIcon, CheckCircleIcon } from '../components/Icons';
 
 export function AboutPage() {
@@ -15,7 +16,7 @@ export function AboutPage() {
               L'Excellence Artisanale au Togo
             </h1>
             <p className="text-sm sm:text-base text-slate-600 max-w-2xl mx-auto leading-relaxed">
-              Fondée à Lomé, l'entreprise Golden Gate est née de la volonté d'offrir aux propriétaires, architectes et professionnels un travail de finition irréprochable alliant tradition du staff et modernité de la peinture.
+              Fondée à Lomé avec siège et atelier à La Pampa, l'entreprise Golden Gate est née de la volonté d'offrir aux propriétaires, architectes et professionnels un travail de finition irréprochable alliant tradition du staff et modernité de la peinture.
             </p>
           </ScrollReveal>
         </div>
@@ -54,13 +55,13 @@ export function AboutPage() {
             <ScrollReveal animation="slide-left" delay={150} duration={800}>
               <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-200 aspect-[4/3] group">
                 <img
-                  src="/images/staffeur-craftsman.jpg"
-                  alt="Artisan staffeur au travail chez Golden Gate"
+                  src="/images/gallery/golden-gate-20.jpeg"
+                  alt="Artisans en atelier de fabrication du staff chez Golden Gate à La Pampa"
                   className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
                 />
                 <div className="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-md p-4 rounded-2xl border border-slate-200 text-xs text-slate-800 flex items-center gap-3 shadow-md">
                   <CrownIcon size={22} className="text-amber-600 shrink-0" />
-                  <span>Maîtrise du staff mouluré, des corniches à éclairage LED et des peintures lessivables.</span>
+                  <span>Atelier de fabrication du staff &amp; chantiers réels à Lomé (La Pampa).</span>
                 </div>
               </div>
             </ScrollReveal>
@@ -119,6 +120,14 @@ export function AboutPage() {
           </div>
         </div>
       </section>
+
+      {/* Galerie des Coulisses & Chantiers en Action */}
+      <RealWorkGallery
+        title="Les Coulisses de Nos Chantiers & Savoir-Faire"
+        initialCategory="chantier"
+        showHeader={true}
+        limit={8}
+      />
 
       {/* CTA bas de page */}
       <section className="py-16 bg-white border-t border-slate-200 text-center overflow-hidden">

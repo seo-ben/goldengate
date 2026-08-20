@@ -52,16 +52,17 @@ export function Hero() {
           loop
           muted
           playsInline
-          poster="/images/golden-gate-one.png"
+          poster="/images/gallery/golden gate two.png"
           className="w-full h-full object-cover object-center scale-105"
         >
+          <source src="/videos/golden-gate-chantier.mp4" type="video/mp4" />
           <source src="/videos/hero-staff.mp4" type="video/mp4" />
           <source src="/videos/hero-bg.mp4" type="video/mp4" />
         </video>
 
         <img
-          src="/images/golden-gate-one.png"
-          alt="Staff et peinture de luxe"
+          src="/images/gallery/golden gate two.png"
+          alt="Staff et peinture de luxe Golden Gate à Lomé"
           className="w-full h-full object-cover object-center absolute inset-0 -z-10"
         />
 

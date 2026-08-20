@@ -59,6 +59,15 @@
   background-size: 24px 24px;
 }
 
+/* Masquage de la barre de défilement pour les onglets horizontaux */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 .bg-dot-pattern-light {
   background-color: #ffffff;
   background-image: radial-gradient(#e2e8f0 1.2px, transparent 1.2px);
@@ -123,8 +132,198 @@
   }
 }
 
+/* --- ANIMATIONS PERSISTANTES (Re-scroll haut/bas fluide) --- */
+.reveal-init {
+  will-change: transform, opacity;
+  transition-property: transform, opacity;
+  transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* --- GRILLE MOSAÏQUE SIGNATURE 10-SLOTS (Hauteur augmentée pour visibilité optimale) --- */
+@media (min-width: 1024px) {
+  .golden-bento-grid {
+    display: grid;
+    grid-template-columns: repeat(24, minmax(0, 1fr));
+    grid-template-rows: repeat(4, 215px);
+    gap: 16px;
+    width: 100%;
+  }
+
+  .golden-slot-1 { grid-column: 1 / 11; grid-row: 1 / 2; }
+  .golden-slot-2 { grid-column: 11 / 20; grid-row: 1 / 2; }
+  .golden-slot-3 { grid-column: 20 / 25; grid-row: 1 / 4; }
+  .golden-slot-4 { grid-column: 1 / 4; grid-row: 2 / 4; }
+  .golden-slot-5 { grid-column: 4 / 14; grid-row: 2 / 3; }
+  .golden-slot-6 { grid-column: 4 / 8; grid-row: 3 / 4; }
+  .golden-slot-7 { grid-column: 8 / 14; grid-row: 3 / 4; }
+  .golden-slot-8 { grid-column: 14 / 20; grid-row: 2 / 4; }
+  .golden-slot-9 { grid-column: 1 / 11; grid-row: 4 / 5; }
+  .golden-slot-10 { grid-column: 11 / 20; grid-row: 4 / 5; }
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+  .golden-bento-grid {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 14px;
+    width: 100%;
+  }
+
+  .golden-slot-1 { grid-column: span 3; min-height: 220px; }
+  .golden-slot-2 { grid-column: span 3; min-height: 220px; }
+  .golden-slot-3 { grid-column: span 2; grid-row: span 2; min-height: 440px; }
+  .golden-slot-4 { grid-column: span 2; grid-row: span 2; min-height: 440px; }
+  .golden-slot-5 { grid-column: span 2; min-height: 220px; }
+  .golden-slot-6 { grid-column: span 1; min-height: 220px; }
+  .golden-slot-7 { grid-column: span 1; min-height: 220px; }
+  .golden-slot-8 { grid-column: span 2; grid-row: span 2; min-height: 440px; }
+  .golden-slot-9 { grid-column: span 3; min-height: 220px; }
+  .golden-slot-10 { grid-column: span 3; min-height: 220px; }
+}
+
+@media (max-width: 639px) {
+  .golden-bento-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    width: 100%;
+  }
+
+  .golden-slot-1 { grid-column: span 2; min-height: 210px; }
+  .golden-slot-2 { grid-column: span 1; min-height: 160px; }
+  .golden-slot-3 { grid-column: span 1; min-height: 160px; }
+  .golden-slot-4 { grid-column: span 1; min-height: 160px; }
+  .golden-slot-5 { grid-column: span 1; min-height: 160px; }
+  .golden-slot-6 { grid-column: span 2; min-height: 200px; }
+  .golden-slot-7 { grid-column: span 1; min-height: 160px; }
+  .golden-slot-8 { grid-column: span 1; min-height: 160px; }
+  .golden-slot-9 { grid-column: span 1; min-height: 160px; }
+  .golden-slot-10 { grid-column: span 1; min-height: 160px; }
+}
+
+
+
 .animate-expand-width {
   animation: expandWidth 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Conteneur 3D pour l'effet de feuille pliée / catalogue */
+.page-flip-container {
+  perspective: 1600px;
+  perspective-origin: center center;
+}
+
+/* Animation 3D : la feuille se plie et se rabat vers la gauche (Suivant) */
+@keyframes bookFoldNext {
+  0% {
+    opacity: 0;
+    transform: perspective(1600px) rotateY(65deg) scale(0.92) translateX(30px);
+    transform-origin: left center;
+    filter: drop-shadow(-20px 10px 30px rgba(0, 0, 0, 0.7));
+  }
+  60% {
+    opacity: 0.95;
+    transform: perspective(1600px) rotateY(15deg) scale(0.98) translateX(5px);
+  }
+  100% {
+    opacity: 1;
+    transform: perspective(1600px) rotateY(0deg) scale(1) translateX(0);
+    transform-origin: left center;
+    filter: drop-shadow(0 15px 35px rgba(0, 0, 0, 0.5));
+  }
+}
+
+/* Animation 3D : la feuille se déplie et s'ouvre depuis la gauche (Précédent) */
+@keyframes bookFoldPrev {
+  0% {
+    opacity: 0;
+    transform: perspective(1600px) rotateY(-65deg) scale(0.92) translateX(-30px);
+    transform-origin: right center;
+    filter: drop-shadow(20px 10px 30px rgba(0, 0, 0, 0.7));
+  }
+  60% {
+    opacity: 0.95;
+    transform: perspective(1600px) rotateY(-15deg) scale(0.98) translateX(-5px);
+  }
+  100% {
+    opacity: 1;
+    transform: perspective(1600px) rotateY(0deg) scale(1) translateX(0);
+    transform-origin: right center;
+    filter: drop-shadow(0 15px 35px rgba(0, 0, 0, 0.5));
+  }
+}
+
+.animate-book-flip-next {
+  animation: bookFoldNext 0.45s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  will-change: transform, opacity;
+}
+
+.animate-book-flip-prev {
+  animation: bookFoldPrev 0.45s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  will-change: transform, opacity;
+}
+
+/* --- ALBUM CAHIER 3D À DEUX PAGES (DOUBLE PAGE SPREAD) --- */
+.book-album-wrapper {
+  perspective: 2200px;
+  perspective-origin: center center;
+  transform-style: preserve-3d;
+}
+
+.book-leaf-turning-next {
+  animation: flipRightLeaf 0.55s cubic-bezier(0.4, 0.0, 0.2, 1) forwards;
+  transform-origin: left center;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  will-change: transform, box-shadow;
+}
+
+.book-leaf-turning-prev {
+  animation: flipLeftLeaf 0.55s cubic-bezier(0.4, 0.0, 0.2, 1) forwards;
+  transform-origin: right center;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  will-change: transform, box-shadow;
+}
+
+@keyframes flipRightLeaf {
+  0% {
+    transform: perspective(2200px) rotateY(0deg);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    z-index: 40;
+  }
+  50% {
+    transform: perspective(2200px) rotateY(-90deg) scale(1.03);
+    box-shadow: -25px 20px 45px rgba(0, 0, 0, 0.6);
+    z-index: 40;
+  }
+  100% {
+    transform: perspective(2200px) rotateY(-180deg);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    z-index: 40;
+  }
+}
+
+@keyframes flipLeftLeaf {
+  0% {
+    transform: perspective(2200px) rotateY(0deg);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    z-index: 40;
+  }
+  50% {
+    transform: perspective(2200px) rotateY(90deg) scale(1.03);
+    box-shadow: 25px 20px 45px rgba(0, 0, 0, 0.6);
+    z-index: 40;
+  }
+  100% {
+    transform: perspective(2200px) rotateY(180deg);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    z-index: 40;
+  }
 }
 
 /* Custom Scrollbar Clair */

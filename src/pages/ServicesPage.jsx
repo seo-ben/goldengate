@@ -2,16 +2,17 @@ import React from 'react';
 import { SERVICES } from '../data/servicesData';
 import { getWhatsAppUrl } from '../config/constants';
 import { ScrollReveal } from '../components/ScrollReveal';
+import { RealWorkGallery } from '../components/RealWorkGallery';
 import { WhatsAppIcon, CheckCircleIcon, ClockIcon, ShieldCheckIcon } from '../components/Icons';
 
 export function ServicesPage() {
   const getServiceImage = (category) => {
     switch (category) {
-      case 'staff': return '/images/golden-gate-two.png';
-      case 'peinture': return '/images/golden-gate-one.png';
-      case 'facade': return '/images/luxury-villa-facade.jpg';
-      case 'effets': return '/images/stucco-venetian-marble.jpg';
-      default: return '/images/staffeur-craftsman.jpg';
+      case 'staff': return '/images/gallery/golden gate two.png';
+      case 'peinture': return '/images/gallery/golden gate one .png';
+      case 'facade': return '/images/gallery/golden-gate-36.jpeg';
+      case 'effets': return '/images/gallery/golden-gate-87.jpeg';
+      default: return '/images/gallery/golden-gate-111.jpeg';
     }
   };
 
@@ -105,6 +106,13 @@ export function ServicesPage() {
           );
         })}
       </section>
+
+      {/* Galerie des réalisations pour chaque prestation */}
+      <RealWorkGallery
+        title="Exemples Réels de Nos Prestations à Lomé"
+        showHeader={true}
+        limit={12}
+      />
 
       {/* Bandeau d'engagement qualité */}
       <section className="py-16 bg-dot-pattern border-t border-slate-200 overflow-hidden">

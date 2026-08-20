@@ -4,6 +4,7 @@ import { Hero } from '../components/Hero';
 import { BeforeAfterSlider } from '../components/BeforeAfterSlider';
 import { MethodTimeline } from '../components/MethodTimeline';
 import { TestimonialsMarquee } from '../components/TestimonialsMarquee';
+import { RealWorkGallery } from '../components/RealWorkGallery';
 import { ScrollReveal } from '../components/ScrollReveal';
 import { AnimatedCounter } from '../components/AnimatedCounter';
 import { FAQS } from '../data/faqData';
@@ -214,7 +215,16 @@ export function HomePage() {
         <MethodTimeline />
       </ScrollReveal>
 
-      {/* 6. Témoignages Clients Réels */}
+      {/* 6. Galerie Photos Réelles de Chantiers */}
+      <ScrollReveal animation="fade-up" duration={850}>
+        <RealWorkGallery
+          title="Nos Chantiers Récents en Images à Lomé"
+          showHeader={true}
+          limit={10}
+        />
+      </ScrollReveal>
+
+      {/* 7. Témoignages Clients Réels */}
       <ScrollReveal animation="fade-up" duration={850}>
         <TestimonialsMarquee />
       </ScrollReveal>
@@ -298,33 +308,51 @@ export function HomePage() {
         </div>
       </section>
 
-      {/* 9. Bannière Finale de Contact */}
+      {/* 9. Bannière Finale de Contact (Épurée, sans label, design prestige) */}
       <ScrollReveal animation="scale-up" duration={800}>
-        <section className="py-20 bg-slate-900 text-white">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
-            <h2 className="text-3xl sm:text-4xl font-extrabold font-serif tracking-tight">
+        <section className="py-20 md:py-24 bg-white border-t border-slate-200 relative overflow-hidden">
+          
+          {/* Lueur d'ambiance subtile */}
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[350px] bg-gradient-to-r from-amber-100/30 via-slate-100/60 to-amber-100/30 rounded-full blur-3xl pointer-events-none"></div>
+
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6 relative z-10">
+            
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold font-serif text-slate-900 tracking-tight leading-tight">
               Donnez Vie à vos Projets de Staff &amp; Peinture
             </h2>
-            <p className="text-slate-300 text-sm sm:text-base max-w-xl mx-auto leading-relaxed">
-              Nos maîtres artisans se déplacent gratuitement chez vous à Lomé pour établir votre devis sous 24h.
+
+            <p className="text-slate-600 text-sm sm:text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
+              Nos maîtres artisans se déplacent directement sur votre chantier à Lomé pour évaluer vos besoins et établir votre devis sur-mesure sous 24h.
             </p>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+
+            {/* Boutons d'Action Principaux */}
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-3.5 pt-2">
               <a
                 href={getWhatsAppUrl("Bonjour Golden Gate, je souhaiterais obtenir des informations et un devis gratuit pour mon projet à Lomé. Merci.")}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full sm:w-auto px-8 py-4 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-base shadow-lg shadow-emerald-950/40 transition-all flex items-center justify-center gap-3"
+                className="w-full sm:w-auto px-8 py-4 rounded-2xl bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-xs sm:text-sm shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2.5 cursor-pointer transform hover:-translate-y-0.5"
               >
-                <WhatsAppIcon size={22} />
-                <span>Contacter sur WhatsApp</span>
+                <WhatsAppIcon size={20} />
+                <span>Discuter sur WhatsApp (+228 93 39 48 74)</span>
               </a>
               <Link
                 to="/contact"
-                className="w-full sm:w-auto px-8 py-4 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-base border border-white/20 transition-all"
+                className="w-full sm:w-auto px-8 py-4 rounded-2xl bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs sm:text-sm shadow-md hover:shadow-lg transition-all flex items-center justify-center"
               >
-                <span>Simulateur &amp; Coordonnées</span>
+                <span>Simulateur de Devis &amp; Contact</span>
               </Link>
             </div>
+
+            {/* Garanties & Localisation rapides */}
+            <div className="pt-6 flex flex-wrap items-center justify-center gap-4 sm:gap-8 text-xs text-slate-500 font-medium">
+              <span>Siège &amp; Ateliers : La Pampa, Lomé</span>
+              <span className="hidden sm:inline text-slate-300">•</span>
+              <span>Devis &amp; Déplacement Gratuits</span>
+              <span className="hidden sm:inline text-slate-300">•</span>
+              <span>Plâtre Fibré de Sisal &amp; Peinture Satinée</span>
+            </div>
+
           </div>
         </section>
       </ScrollReveal>

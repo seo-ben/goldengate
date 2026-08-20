@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
 import { FloatingWhatsApp } from './components/FloatingWhatsApp';
+import { ErrorBoundary } from './components/ErrorBoundary';
 
 import { HomePage } from './pages/HomePage';
 import { ProjectsPage } from './pages/ProjectsPage';
@@ -28,17 +29,19 @@ function App() {
         {/* Navigation principale */}
         <Navbar />
 
-        {/* 5 Pages Principales */}
+        {/* 5 Pages Principales protégées */}
         <main className="flex-1">
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/realisations" element={<ProjectsPage />} />
-            <Route path="/services" element={<ServicesPage />} />
-            <Route path="/a-propos" element={<AboutPage />} />
-            <Route path="/contact" element={<ContactPage />} />
-            {/* Fallback */}
-            <Route path="*" element={<HomePage />} />
-          </Routes>
+          <ErrorBoundary>
+            <Routes>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/realisations" element={<ProjectsPage />} />
+              <Route path="/services" element={<ServicesPage />} />
+              <Route path="/a-propos" element={<AboutPage />} />
+              <Route path="/contact" element={<ContactPage />} />
+              {/* Fallback */}
+              <Route path="*" element={<HomePage />} />
+            </Routes>
+          </ErrorBoundary>
         </main>
 
         {/* Footer Complet */}
