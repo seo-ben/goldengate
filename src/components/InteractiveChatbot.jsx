@@ -11,7 +11,7 @@ const BOT_STEPS = [
       { label: "Staff décoratif & Faux-Plafond LED", key: "Staff & LED" },
       { label: "Peinture Intérieure (Murs & Plafonds)", key: "Peinture Intérieure" },
       { label: "Ravalement de Façade Extérieure", key: "Façade Extérieure" },
-      { label: "Stucco Vénitien & Effets Décoratifs", key: "Stucco & Effets" },
+      { label: "Stucco Vénitien, Béton Ciré & Effets", key: "Stucco & Béton Ciré" },
       { label: "Rénovation Complète (Staff + Peinture)", key: "Rénovation Complète" }
     ]
   },
@@ -28,14 +28,14 @@ const BOT_STEPS = [
   },
   {
     step: 3,
-    botMessage: "Parfait. Dans quelle zone ou quartier de Lomé se situe votre chantier ?",
+    botMessage: "Parfait. Dans quelle zone ou pays d'Afrique se situe votre chantier ?",
     options: [
-      { label: "Agoè-Nyivé, Télécom, Cacaveli", key: "Agoè & Environs" },
-      { label: "Tokoin, Douane, Forever, Centre", key: "Tokoin & Centre" },
-      { label: "Hédzranawoé, Kégué, Aéroport", key: "Hédzranawoé & Kégué" },
-      { label: "Baguida, Avépozo, Zone Plage", key: "Baguida & Littoral" },
-      { label: "Adidogomé, Contournement, Ségbé", key: "Adidogomé & Ouest" },
-      { label: "Autre quartier / Autre ville du Togo", key: "Autre zone Togo" }
+      { label: "Agoè-Nyivé, Télécom, Cacaveli (Lomé)", key: "Agoè & Environs" },
+      { label: "Tokoin, Douane, Forever, Centre (Lomé)", key: "Tokoin & Centre" },
+      { label: "Hédzranawoé, Kégué, Aéroport (Lomé)", key: "Hédzranawoé & Kégué" },
+      { label: "Baguida, Avépozo, Zone Littorale (Lomé)", key: "Baguida & Littoral" },
+      { label: "Autre ville du Togo (Tsévié, Kpalimé, Kara...)", key: "Intérieur Togo" },
+      { label: "Autre Pays d'Afrique (Bénin, Ghana, CI, etc.)", key: "Afrique / International" }
     ]
   },
   {

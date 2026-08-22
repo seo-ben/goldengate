@@ -6,6 +6,7 @@ import { WhatsAppIcon, ArrowRightIcon } from './Icons';
 const PHRASES = [
   "Faux-Plafonds en Staff & Gorges LED",
   "Peinture Intérieure Satinée Zéro Défaut",
+  "Béton Ciré Contemporain & Stucco",
   "Ravalement de Façades Siloxanes",
   "Stucco Vénitien Effet Marbre",
 ];
@@ -90,7 +91,7 @@ export function Hero() {
 
         {/* Sous-titre concis */}
         <p className="text-sm sm:text-base md:text-lg text-slate-200 max-w-2xl mx-auto leading-relaxed font-light drop-shadow-sm">
-          Spécialiste de la transformation de vos intérieurs et façades à <strong>Lomé et au Togo</strong>. Faux-plafonds moulurés en staff, gorges lumineuses LED et peintures satinées haute durabilité.
+          Spécialiste de la transformation de vos intérieurs et façades au <strong>Togo, dans la sous-région et dans tous les pays d'Afrique</strong>. Faux-plafonds moulurés en staff, gorges lumineuses LED, béton ciré et peintures satinées haute durabilité.
         </p>
 
         {/* Les 2 Boutons d'Action (sans rien après) */}

@@ -30,15 +30,15 @@ const BOT_QUESTIONS = [
   },
   {
     step: 3,
-    title: "3. Dans quel quartier de Lomé se trouve le chantier ?",
-    placeholder: "Ex: Baguida près de la plage, Lomé...",
+    title: "3. Dans quel pays ou ville d'Afrique se situe le chantier ?",
+    placeholder: "Ex: Cotonou (Bénin), Abidjan (CI), Lomé (Togo)...",
     options: [
-      "Agoè-Nyivé, Télécom, Cacaveli",
-      "Tokoin, Douane, Forever, Centre",
-      "Hédzranawoé, Kégué, Aéroport",
-      "Baguida, Avépozo, Zone Littorale",
-      "Adidogomé, Contournement, Ségbé",
-      "Autre quartier / Autre ville du Togo"
+      "Lomé & Environs (Togo)",
+      "Villes de l'Intérieur du Togo (Kpalimé, Kara...)",
+      "Bénin (Cotonou, Porto-Novo...)",
+      "Ghana (Accra, Tema...)",
+      "Côte d'Ivoire (Abidjan, Yamoussoukro...)",
+      "Autre Pays d'Afrique (Burkina, Sénégal, Gabon...)"
     ]
   },
   {
@@ -91,7 +91,7 @@ export function ContactPage() {
               Demandez Votre Devis Gratuit
             </h1>
             <p className="text-sm sm:text-base text-slate-600 max-w-2xl mx-auto leading-relaxed">
-              Nos artisans se déplacent gratuitement partout dans le Grand Lomé sous 24h. Contactez-nous par WhatsApp, téléphone ou remplissez votre demande rapide ci-dessous.
+              Nos artisans se déplacent au Togo, dans la sous-région et dans tous les pays d'Afrique. Contactez-nous par WhatsApp, téléphone ou remplissez votre demande rapide ci-dessous.
             </p>
           </ScrollReveal>
         </div>

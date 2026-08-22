@@ -13,10 +13,10 @@ export function AboutPage() {
         <div className="max-w-4xl mx-auto px-4">
           <ScrollReveal animation="fade-up">
             <h1 className="text-3xl sm:text-5xl font-extrabold font-serif text-slate-900 mb-4">
-              L'Excellence Artisanale au Togo
+              L'Excellence Artisanale au Togo &amp; dans Toute l'Afrique
             </h1>
             <p className="text-sm sm:text-base text-slate-600 max-w-2xl mx-auto leading-relaxed">
-              Fondée à Lomé avec siège et atelier à La Pampa, l'entreprise Golden Gate est née de la volonté d'offrir aux propriétaires, architectes et professionnels un travail de finition irréprochable alliant tradition du staff et modernité de la peinture.
+              Basée à Lomé (Togo), l'entreprise Golden Gate déploie ses maîtres artisans au Togo, dans la sous-région et dans l'ensemble des pays d'Afrique pour offrir un travail de finition d'exception alliant tradition du staff et modernité de la peinture.
             </p>
           </ScrollReveal>
         </div>
@@ -45,7 +45,7 @@ export function AboutPage() {
                 </div>
                 <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200">
                   <span className="text-2xl font-extrabold font-serif text-slate-900">8 Ans</span>
-                  <p className="text-xs font-bold text-slate-700 mt-1">D'Expérience au Togo</p>
+                  <p className="text-xs font-bold text-slate-700 mt-1">D'Expérience en Afrique</p>
                 </div>
               </div>
             </ScrollReveal>

@@ -42,10 +42,17 @@ export const ZONES = [
     projectsCount: '22+ chantiers'
   },
   {
-    name: 'Villes de l\'Intérieur (Sur Devis)',
+    name: 'Villes de l\'Intérieur du Togo',
     description: 'Tsévié, Kpalimé, Aného, Atakpamé, Kara (grands projets & villas)',
     status: 'Sur RDV & Étude préalable',
     badge: 'Grand Togo',
     projectsCount: '15+ chantiers'
+  },
+  {
+    name: 'Sous-Région & Toute l\'Afrique',
+    description: 'Bénin, Ghana, Côte d\'Ivoire, Burkina Faso, Sénégal, Gabon et l\'ensemble des pays d\'Afrique',
+    status: 'Mobilité Internationale & Équipes Déplacées',
+    badge: 'Toute l\'Afrique',
+    projectsCount: 'Missions Pan-Africaines'
   }
 ];

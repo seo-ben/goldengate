@@ -57,15 +57,15 @@ export const SERVICES = [
     id: 'effets-decoratifs-stuc',
     category: 'effets',
     badge: 'Design & Luxe',
-    title: 'Enduits Décoratifs, Stucco & Effets Texturés',
-    shortDesc: 'Application de Stuc vénitien effet marbre, béton ciré, peintures sablées métallisées et effets velours.',
-    fullDesc: 'Pour un mur d\'accentuation unique dans votre salon, hall d\'entrée ou tête de lit, nos artisans maîtrisent les techniques de décoration murale prestigieuses : Stucco italien lustré à la cire, enduit minéral à la chaux, aspect sablé nacré et peintures métallisées scintillantes.',
+    title: 'Enduits Décoratifs, Stucco Vénitien & Béton Ciré',
+    shortDesc: 'Application de Stuc vénitien effet marbre, béton ciré contemporain et résistant, peintures sablées métallisées et effets velours.',
+    fullDesc: 'Pour un mur d\'accentuation unique ou une surface élégante dans votre salon, hall d\'entrée, salle de bain ou terrasse, nos artisans maîtrisent les techniques de décoration prestigieuses : Stucco italien lustré à la cire, Béton Ciré lisse et haute résistance pour sols et murs, enduit minéral à la chaux, aspect sablé nacré et peintures métallisées.',
     features: [
       'Stucco vénitien authentique effet marbre brillant poli à la main',
+      'Béton ciré contemporain & résistant pour sols, murs et douches',
       'Peinture à effet sablé métallique or, argent, bronze ou perlé',
-      'Enduit effet béton ciré contemporain et industriel',
       'Murs d\'accentuation salon, meuble TV et suites parentales',
-      'Surface facile d\'entretien et durable dans le temps'
+      'Surface hygiénique, facile d\'entretien et durable dans le temps'
     ],
     idealFor: 'Murs TV, entrées de prestige, restaurants haut de gamme, salons VIP',
     timeline: '2 à 4 jours selon complexité',

@@ -5,8 +5,8 @@
 export const COMPANY = {
   name: 'Golden Gate',
   legalName: 'Golden Gate Décoration & Finitions SARL',
-  tagline: "L'art de la finition parfaite : Peinture d'exception & Staff haut de gamme à Lomé",
-  shortDescription: "Spécialiste de la peinture intérieure/extérieure, des faux-plafonds en staff mouluré, corniches lumineuses LED et revêtements décoratifs au Togo.",
+  tagline: "L'art de la finition parfaite : Peinture d'exception, Béton Ciré & Staff haut de gamme au Togo et dans toute l'Afrique",
+  shortDescription: "Spécialiste de la peinture intérieure/extérieure, béton ciré, faux-plafonds en staff mouluré, corniches lumineuses LED et revêtements décoratifs au Togo, dans la sous-région et dans tous les pays d'Afrique.",
   
   // Contact & WhatsApp
   whatsappNumber: '22893394874', // Format international sans '+' pour le lien wa.me
@@ -21,7 +21,7 @@ export const COMPANY = {
   district: 'La Pampa',
   googleMapsUrl: 'https://maps.google.com/?q=La+Pampa+Lomé+Togo',
   googleMapsEmbed: 'https://maps.google.com/maps?q=La%20Pampa%20Lom%C3%A9%20Togo&t=&z=15&ie=UTF8&iwloc=&output=embed',
-  zonesSummary: 'Intervention dans tout le Grand Lomé (La Pampa, Agoè, Tokoin, Hédzranawoé, Baguida, Adidogomé...) et grandes villes du Togo',
+  zonesSummary: 'Interventions au Togo, dans la sous-région et dans TOUS LES PAYS D\'AFRIQUE pour tous vos chantiers d\'exception.',
   
   // Horaires
   hours: 'Lun - Sam : 07h30 - 18h30',

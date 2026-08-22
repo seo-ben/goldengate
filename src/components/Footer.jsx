@@ -32,7 +32,7 @@ export function Footer() {
             </div>
 
             <p className="text-slate-600 text-xs leading-relaxed max-w-md">
-              Entreprise togolaise experte en faux-plafonds en staff mouluré, corniches lumineuses LED, peinture intérieure satinée, ravalement de façades et stuc vénitien à Lomé et au Togo.
+              Entreprise togolaise experte en faux-plafonds en staff mouluré, corniches lumineuses LED, peinture intérieure satinée, béton ciré, ravalement de façades et stuc. Interventions au Togo, dans la sous-région et dans tous les pays d'Afrique.
             </p>
 
             {/* Boutons d'Action Rapides sur la MÊME ligne */}
@@ -83,7 +83,7 @@ export function Footer() {
                 <li><Link to="/services" className="hover:text-slate-950 transition-colors">Gorges LED</Link></li>
                 <li><Link to="/services" className="hover:text-slate-950 transition-colors">Peinture Satinée</Link></li>
                 <li><Link to="/services" className="hover:text-slate-950 transition-colors">Façades &amp; Murs</Link></li>
-                <li><Link to="/services" className="hover:text-slate-950 transition-colors">Stucco Vénitien</Link></li>
+                <li><Link to="/services" className="hover:text-slate-950 transition-colors">Béton Ciré &amp; Stucco</Link></li>
               </ul>
             </div>
 
@@ -95,7 +95,7 @@ export function Footer() {
               Siège &amp; Ateliers
             </h4>
             
-            <div className="p-3.5 rounded-2xl bg-slate-50 border border-slate-200/80 space-y-2.5 text-xs text-slate-600">
+            <div className="space-y-2 text-xs text-slate-600">
               <p className="flex items-start gap-2">
                 <MapPinIcon size={14} className="text-amber-600 shrink-0 mt-0.5" />
                 <a
@@ -108,15 +108,15 @@ export function Footer() {
                 </a>
               </p>
               
-              <p className="flex items-center gap-2 pt-1 border-t border-slate-200/60">
+              <p className="flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-emerald-500 shrink-0"></span>
-                <span className="text-[11px] font-semibold text-slate-700">
+                <span className="text-xs font-medium text-slate-700">
                   {COMPANY.hours}
                 </span>
               </p>
 
-              <p className="text-[10px] text-slate-500">
-                Interventions dans tout le Grand Lomé &amp; Togo
+              <p className="text-xs text-slate-500 pt-1 font-medium">
+                Interventions au Togo, sous-région &amp; toute l'Afrique
               </p>
             </div>
           </div>

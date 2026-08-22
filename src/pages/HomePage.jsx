@@ -194,7 +194,7 @@ export function HomePage() {
                     className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute top-4 left-4 bg-white/95 px-3.5 py-1 rounded-full text-xs font-bold text-slate-900 shadow-xs">
-                    Peinture Satinée &amp; Stucco
+                    Béton Ciré, Stucco &amp; Peinture
                   </div>
                 </div>
               </ScrollReveal>
@@ -234,10 +234,10 @@ export function HomePage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-8">
           <ScrollReveal animation="fade-up">
             <h2 className="text-2xl sm:text-3xl font-extrabold font-serif text-slate-900">
-              Intervention Rapide dans Tout le Grand Lomé
+              Interventions au Togo &amp; Mobilité dans Toute l'Afrique
             </h2>
             <p className="text-xs sm:text-sm text-slate-600 mt-1.5">
-              Déplacement et diagnostic 100% gratuits sous 24h dans votre secteur.
+              Basés à Lomé (Togo), nos maîtres artisans interviennent au Togo, dans la sous-région et se déplacent dans tous les pays d'Afrique.
             </p>
           </ScrollReveal>
 
@@ -346,7 +346,7 @@ export function HomePage() {
 
             {/* Garanties & Localisation rapides */}
             <div className="pt-6 flex flex-wrap items-center justify-center gap-4 sm:gap-8 text-xs text-slate-500 font-medium">
-              <span>Siège &amp; Ateliers : La Pampa, Lomé</span>
+              <span>Siège : Lomé (Togo) • Interventions Toute l'Afrique</span>
               <span className="hidden sm:inline text-slate-300">•</span>
               <span>Devis &amp; Déplacement Gratuits</span>
               <span className="hidden sm:inline text-slate-300">•</span>
