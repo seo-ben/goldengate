@@ -6,7 +6,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
 const distDir = path.join(rootDir, 'dist');
-const DOMAIN = 'https://goldengatedecor.com';
+const DOMAIN = 'https://goldengatebulder.com';
 
 const ROUTES_META = [
   {
