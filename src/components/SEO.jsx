@@ -19,6 +19,7 @@ export function SEO({
     <Helmet>
       {/* Dynamic Title & Metas */}
       <title>{fullTitle}</title>
+      <meta name="google-site-verification" content="8eY3TwuC4bwW_UEduiTPYDMdYCUMQkXHn_iHw2WiCIo" />
       <meta name="description" content={description} />
       {keywords && <meta name="keywords" content={keywords} />}
       <link rel="canonical" href={canonicalUrl} />
