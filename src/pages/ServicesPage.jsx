@@ -4,20 +4,27 @@ import { getWhatsAppUrl } from '../config/constants';
 import { ScrollReveal } from '../components/ScrollReveal';
 import { RealWorkGallery } from '../components/RealWorkGallery';
 import { WhatsAppIcon, CheckCircleIcon, ClockIcon, ShieldCheckIcon } from '../components/Icons';
+import { SEO } from '../components/SEO';
 
 export function ServicesPage() {
   const getServiceImage = (category) => {
     switch (category) {
-      case 'staff': return '/images/gallery/golden gate two.png';
-      case 'peinture': return '/images/gallery/golden gate one .png';
-      case 'facade': return '/images/gallery/golden-gate-36.jpeg';
-      case 'effets': return '/images/gallery/golden-gate-87.jpeg';
-      default: return '/images/gallery/golden-gate-111.jpeg';
+      case 'staff': return '/images/gallery/golden gate two.webp';
+      case 'peinture': return '/images/gallery/golden gate one .webp';
+      case 'facade': return '/images/gallery/golden-gate-36.webp';
+      case 'effets': return '/images/gallery/golden-gate-87.webp';
+      default: return '/images/gallery/golden-gate-111.webp';
     }
   };
 
   return (
     <div className="bg-white min-h-screen">
+      <SEO
+        title="Nos Services | Faux-Plafond Staff LED, Béton Ciré, Stucco & Peinture Villa"
+        description="Prestations haut de gamme de finition et décoration : faux-plafond en plâtre fibré staff, gorges lumineuses LED, peinture intérieure satinée, béton ciré, stucco vénitien et ravalement siloxane hydrofuge."
+        keywords="Faux plafond staff LED Lomé, Béton ciré Togo, Stucco vénitien Cotonou, Ravalement façade villa Abidjan, Enduit lissage peinture Afrique"
+        path="/services"
+      />
 
       {/* En-tête de la page Services */}
       <section className="py-16 md:py-20 bg-dot-pattern border-b border-slate-200 text-center overflow-hidden">
@@ -27,7 +34,7 @@ export function ServicesPage() {
               Nos Prestations de Finition &amp; Décoration
             </h1>
             <p className="text-sm sm:text-base text-slate-600 max-w-2xl mx-auto leading-relaxed">
-              De la création sur-mesure de faux-plafonds en staff jusqu'à la protection étanche des façades de villas, découvrez le détail technique de nos interventions à Lomé.
+              De la création sur-mesure de faux-plafonds en staff jusqu'à la protection étanche des façades de villas, découvrez le détail technique de nos interventions à Lomé <strong>et dans toute l'Afrique</strong>.
             </p>
           </ScrollReveal>
         </div>

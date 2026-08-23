@@ -1,13 +1,14 @@
 /**
  * Catalogue complet des réalisations et photos réelles de Golden Gate Décoration SARL (Lomé - Togo).
  * Classées par catégories : Staff & Plafonds, Peinture Intérieure, Façades & Extérieur, Stuc & Décorations, Chantiers & Coulisses.
+ * Toutes les images utilisent le format WebP haute performance optimisé pour le référencement Google.
  */
 
 export const REAL_GALLERY_CATEGORIES = [
   { id: 'all', label: 'Toutes les Photos' },
   { id: 'staff', label: 'Plafonds Staff & LED' },
   { id: 'peinture', label: 'Peinture Intérieure' },
-  { id: 'facade', label: 'Façades & Extérieur' },
+  { id: 'facade', label: 'Façades, Gréx & Graffiato' },
   { id: 'effets', label: 'Stuc & Décorations' },
   { id: 'chantier', label: 'Chantiers & Coulisses' },
 ];
@@ -16,498 +17,370 @@ export const REAL_GALLERY_IMAGES = [
   // --- 1. STAFF & PLAFONDS SUSPENDUS ---
   {
     id: 'staff-01',
-    src: '/images/gallery/golden gate two.png',
-    title: 'Faux-Plafond en Staff Double Décaissé & LED',
+    src: '/images/gallery/golden gate two.webp',
+    title: 'Terrasse de Villa & Colonnes Sculptées en Staff',
     category: 'staff',
     location: 'Agoè-Nyivé, Lomé',
-    description: 'Plafond suspendu en staff mouluré avec double niveau, gorge lumineuse LED indirecte et spots encastrés.'
+    description: 'Poteaux et colonnes d\'extérieur habillés de moulures en staff avec garde-corps blanc et finitions sur-mesure.'
   },
   {
     id: 'staff-02',
-    src: '/images/gallery/golden-gate-104.jpeg',
-    title: 'Plafond Majestueux en Staff avec Décaissé & Spots',
+    src: '/images/gallery/golden-gate-3.webp',
+    title: 'Plafond Suspendu en Staff 3D à Reliefs Alvéolés',
     category: 'staff',
     location: 'Cacaveli, Lomé',
-    description: 'Structure contemporaine en plâtre fibré de sisal avec décaissé central et éclairage encastré.'
+    description: 'Oeuvre architecturale sur-mesure en plâtre sculpté avec alvéoles concaves 3D rétroéclairables pour chambre d\'exception.'
   },
   {
     id: 'staff-03',
-    src: '/images/gallery/golden-gate-101.jpeg',
-    title: 'Gorge Lumineuse 360° & Corniches Royales',
+    src: '/images/gallery/golden-gate-101.webp',
+    title: 'Faux-Plafond en Staff à Lattes Cinétiques & Éclairage Encastré',
     category: 'staff',
     location: 'Résidence Tokoin, Lomé',
-    description: 'Corniches d\'angle sculptées main et bandeau lumineux LED blanc chaud 3000K pour salon de réception.'
+    description: 'Plafond contemporain en plâtre fibré à lattes linéaires géométriques avec spots encastrés et gorges lumineuses.'
   },
   {
     id: 'staff-04',
-    src: '/images/gallery/golden-gate-104.jpeg',
-    title: 'Plafond Moderne à Caissons Décoratifs',
+    src: '/images/gallery/golden-gate-7.webp',
+    title: 'Plafond Décaissé Anthracite & Meuble TV Staff Sur-Mesure',
     category: 'staff',
     location: 'Hédzranawoé, Lomé',
-    description: 'Structure contemporaine à caissons asymétriques avec découpe laser et spots intégrés.'
+    description: 'Agencement complet de salon : faux-plafond à décaissé sombre avec spots et meuble mural TV en staff rétroéclairé LED bleu.'
   },
   {
     id: 'staff-05',
-    src: '/images/gallery/golden-gate-105.jpeg',
-    title: 'Faux-Plafond Salle à Manger & Îlot Central',
-    category: 'staff',
-    location: 'Baguida Plage, Lomé',
-    description: 'Décaissé central ovale souligné d\'un ruban LED doux et finitions plâtre haute densité.'
-  },
-  {
-    id: 'staff-06',
-    src: '/images/gallery/golden-gate-108.jpeg',
-    title: 'Plafond Staff Épuré & Éclairage Minimaliste',
-    category: 'staff',
-    location: 'Adidogomé, Lomé',
-    description: 'Lignes architecturales épurées pour villa moderne, avec absorption acoustique et peinture mate veloutée.'
-  },
-  {
-    id: 'staff-07',
-    src: '/images/gallery/golden-gate-82.jpeg',
-    title: 'Corniches et Rosaces en Staff Traditionnel',
-    category: 'staff',
-    location: 'Kodjoviakopé, Lomé',
-    description: 'Moulures classiques ouvragées à la main par nos maîtres staffeurs togolais.'
-  },
-  {
-    id: 'staff-08',
-    src: '/images/gallery/golden-gate-77.jpeg',
+    src: '/images/gallery/golden-gate-77.webp',
     title: 'Double Décaissé Circulaire Rétroéclairé',
     category: 'staff',
     location: 'Agoè Télécom, Lomé',
-    description: 'Conception géométrique complexe avec cercles imbriqués et variation d\'intensité lumineuse.'
+    description: 'Conception géométrique complexe avec cercles imbriqués en plâtre fibré et variation d\'intensité lumineuse.'
   },
   {
-    id: 'staff-09',
-    src: '/images/gallery/golden-gate-78.jpeg',
+    id: 'staff-06',
+    src: '/images/gallery/golden-gate-78.webp',
     title: 'Gorge Lumineuse en Vague Ondulée',
     category: 'staff',
     location: 'Totsi, Lomé',
     description: 'Plafond artistique avec courbes fluides en plâtre fibré et ruban LED blanc neutre 4000K.'
   },
   {
-    id: 'staff-10',
-    src: '/images/gallery/golden-gate-76.jpeg',
+    id: 'staff-07',
+    src: '/images/gallery/golden-gate-76.webp',
     title: 'Staff Haute Finition & Intégration Climatisation',
     category: 'staff',
     location: 'Aflao-Gakli, Lomé',
     description: 'Faux-plafond technique intégrant diffuseurs de climatisation et trappes d\'accès discrètes.'
   },
   {
-    id: 'staff-11',
-    src: '/images/gallery/golden-gate-64.jpeg',
+    id: 'staff-08',
+    src: '/images/gallery/golden-gate-64.webp',
     title: 'Plafond Multizone pour Suite Parentale',
     category: 'staff',
     location: 'Zone Portuaire, Lomé',
     description: 'Séparation visuelle espace nuit et dressing par décalage de hauteurs sous plafond en staff.'
   },
   {
-    id: 'staff-12',
-    src: '/images/gallery/golden-gate-2.jpeg',
-    title: 'Sculpture Plâtre & Motifs Géométriques',
+    id: 'staff-09',
+    src: '/images/gallery/golden-gate-82.webp',
+    title: 'Corniches et Rosaces en Staff Traditionnel',
     category: 'staff',
-    location: 'La Pampa (Siège), Lomé',
-    description: 'Prototype de motif staff décoratif sculpté dans nos ateliers de La Pampa.'
+    location: 'Kodjoviakopé, Lomé',
+    description: 'Moulures classiques ouvragées à la main par nos maîtres staffeurs togolais.'
   },
 
   // --- 2. PEINTURE INTÉRIEURE HAUTE DÉFINITION ---
   {
     id: 'peint-01',
-    src: '/images/gallery/golden gate one .png',
-    title: 'Peinture Intérieure Satinée Zéro Trace',
+    src: '/images/gallery/golden-gate-88.webp',
+    title: 'Salon Moderne aux Murs Blanc Satin & Lustre Géométrique LED',
     category: 'peinture',
     location: 'Agoè-Nyivé, Lomé',
-    description: 'Application soignée en 3 couches après enduisage fin et ponçage millimétré sous lumière rasante.'
+    description: 'Finition soignée en peinture blanc satin avec sol en carrelage grand format marbré et suspensions géométriques LED.'
   },
   {
     id: 'peint-02',
-    src: '/images/gallery/golden-gate-40.jpeg',
-    title: 'Salon Rénové : Teinte Douce & Boiseries',
+    src: '/images/gallery/golden-gate-105.webp',
+    title: 'Patio Intérieur & Puits de Lumière Villa de Standing',
     category: 'peinture',
     location: 'Tokoin Habitat, Lomé',
-    description: 'Harmonie des tons chauds, peinture acrylique veloutée lavable et laque satinée pour portes.'
+    description: 'Espace intérieur sous verrière baigné de lumière naturelle avec peinture murale extra-blanche et baies vitrées coulissantes.'
   },
   {
     id: 'peint-03',
-    src: '/images/gallery/golden-gate-48.jpeg',
-    title: 'Mur d\'Accentuation & Ligne de Démarcation Nette',
+    src: '/images/gallery/golden-gate-107.webp',
+    title: 'Couloir Contemporain & Lanterneaux de Toit',
     category: 'peinture',
     location: 'Hédzranawoé, Lomé',
-    description: 'Bicolore précis avec découpe au laser pour un rendu graphique ultra moderne.'
+    description: 'Mise en peinture blanche mate d\'un couloir d\'étage à garde-corps en verre synthétique et fenêtres zénithales.'
   },
   {
     id: 'peint-04',
-    src: '/images/gallery/golden-gate-53.jpeg',
-    title: 'Peinture Lessivable pour Pièce à Vivre',
+    src: '/images/gallery/golden-gate-112.webp',
+    title: 'Peinture Mat Crème & Intégration Luminaires Suspendus',
     category: 'peinture',
     location: 'Cacaveli, Lomé',
-    description: 'Revêtement mural haute résistance contre les traces du quotidien et l\'humidité de Lomé.'
+    description: 'Application de peinture haut de gamme ton crème sur murs et plafond avec préparation des suspensions lumineuses.'
   },
   {
     id: 'peint-05',
-    src: '/images/gallery/golden-gate-55.jpeg',
-    title: 'Finition Mate Soyeuse pour Chambre à Coucher',
+    src: '/images/gallery/golden-gate-40.webp',
+    title: 'Salon Rénové : Teinte Douce & Boiseries',
     category: 'peinture',
     location: 'Baguida, Lomé',
-    description: 'Ambiance feutrée avec peinture sans odeur à faible émission de COV pour confort optimal.'
+    description: 'Harmonie des tons chauds, peinture acrylique veloutée lavable et laque satinée pour portes.'
   },
   {
     id: 'peint-06',
-    src: '/images/gallery/golden-gate-59.jpeg',
-    title: 'Mise en Valeur Couloir & Cage d\'Escalier',
+    src: '/images/gallery/golden-gate-48.webp',
+    title: 'Mur d\'Accentuation & Ligne de Démarcation Nette',
     category: 'peinture',
     location: 'Agoè Légbassito, Lomé',
-    description: 'Application决策 sur grande hauteur avec échafaudage sécurisé et finitions sans raccords.'
+    description: 'Bicolore précis avec découpe au laser pour un rendu graphique ultra moderne.'
   },
   {
     id: 'peint-07',
-    src: '/images/gallery/golden-gate-61.jpeg',
-    title: 'Peinture Plafond Blanc Pur Anti-Reflets',
+    src: '/images/gallery/golden-gate-53.webp',
+    title: 'Peinture Lessivable pour Pièce à Vivre',
     category: 'peinture',
     location: 'Kodjoviakopé, Lomé',
-    description: 'Blanc lumineux profond masquant toutes les imperfections et maximisant la lumière naturelle.'
+    description: 'Revêtement mural haute résistance contre les traces du quotidien et l\'humidité tropicale de Lomé.'
   },
   {
     id: 'peint-08',
-    src: '/images/gallery/golden-gate-62.jpeg',
-    title: 'Rénovation Complète Villa R+1',
+    src: '/images/gallery/golden-gate-55.webp',
+    title: 'Finition Mate Soyeuse pour Chambre à Coucher',
     category: 'peinture',
     location: 'Adidogomé, Lomé',
-    description: 'Murs, plafonds, plinthes et encadrements traités avec des peintures professionnelles haut de gamme.'
+    description: 'Ambiance feutrée avec peinture sans odeur à faible émission de COV pour un confort respiratoire optimal.'
   },
   {
     id: 'peint-09',
-    src: '/images/gallery/golden-gate-68.jpeg',
-    title: 'Teinte Royale & Contraste Lumineux',
+    src: '/images/gallery/golden-gate-61.webp',
+    title: 'Peinture Plafond Blanc Pur Anti-Reflets',
     category: 'peinture',
     location: 'Totsi, Lomé',
-    description: 'Couleurs pigmentées durables garanties sans décoloration sous le soleil togolais.'
-  },
-  {
-    id: 'peint-10',
-    src: '/images/gallery/golden-gate-69.jpeg',
-    title: 'Peinture Cuisine & Espaces d\'Eau',
-    category: 'peinture',
-    location: 'Nyékonakpoé, Lomé',
-    description: 'Formule hydrofuge anti-moisissures et fongicide spéciale pièces humides.'
-  },
-  {
-    id: 'peint-11',
-    src: '/images/gallery/golden-gate-74.jpeg',
-    title: 'Finitions Angle Droit Parfaites',
-    category: 'peinture',
-    location: 'Agoè-Nyivé, Lomé',
-    description: 'Découpage minutieux entre plafond staff et murs colorés sans débordement.'
+    description: 'Blanc lumineux profond masquant les imperfections et maximisant la réfraction de la lumière.'
   },
 
   // --- 3. FAÇADES & EXTÉRIEURS ---
   {
     id: 'fac-01',
-    src: '/images/gallery/golden-gate-111.jpeg',
-    title: 'Villa Moderne Blanche & Colonnes Sculptées',
+    src: '/images/gallery/golden-gate-104.webp',
+    title: 'Façade Villa Contemporaine avec Piscine & Balcons Vitrés',
     category: 'facade',
-    location: 'Cacaveli, Lomé',
-    description: 'Ravalement complet de villa d\'architecte avec colonnes staffées et peinture extérieure blanche anti-UV.'
+    location: 'Baguida Plage, Lomé',
+    description: 'Sublime villa d\'architecte contemporaine avec enduit blanc pur anti-UV, piscine miroir et garde-corps vitrés.'
   },
   {
     id: 'fac-02',
-    src: '/images/gallery/golden-gate-36.jpeg',
+    src: '/images/gallery/golden-gate-111.webp',
+    title: 'Ravalement de Façade Villa R+1 Blanche & Grise avec Colonne Staff',
+    category: 'facade',
+    location: 'Cacaveli, Lomé',
+    description: 'Ravalement complet de villa R+1 avec colonne décorative verticale en staff et menuiseries alu noires.'
+  },
+  {
+    id: 'fac-03',
+    src: '/images/gallery/golden-gate-114.webp',
+    title: 'Éclairage Nocturne & Peinture Façade de Palace',
+    category: 'facade',
+    location: 'Agoè Télécom, Lomé',
+    description: 'Mise en lumière féerique d\'une résidence coloniale avec appliques murales ambrées et piliers majestueux.'
+  },
+  {
+    id: 'fac-04',
+    src: '/images/gallery/golden-gate-6.webp',
+    title: 'Façade Extérieure en Crépi Ocre Sable Hydrofuge & Appliques',
+    category: 'facade',
+    location: 'Totsi, Lomé',
+    description: 'Finition rustique grattée ton sable hydrofuge résistant aux pluies tropicales et à l\'érosion.'
+  },
+  {
+    id: 'fac-05',
+    src: '/images/gallery/golden-gate-4.webp',
+    title: 'Enduit Gratté Texturé Horizontal sur Mur de Clôture',
+    category: 'facade',
+    location: 'Hédzranawoé, Lomé',
+    description: 'Application soignée d\'enduit protecteur texturé strié à la horizontale sur mur d\'enceinte.'
+  },
+  {
+    id: 'fac-06',
+    src: '/images/gallery/golden-gate-36.webp',
     title: 'Ravalement Façade Villa Contemporaine',
     category: 'facade',
     location: 'Baguida Plage, Lomé',
     description: 'Traitement hydrofuge complet et application de peinture siloxane imperméable anti-salissures.'
   },
   {
-    id: 'fac-02',
-    src: '/images/gallery/golden-gate-38.jpeg',
+    id: 'fac-07',
+    src: '/images/gallery/golden-gate-38.webp',
     title: 'Façade Blanche & Grise aux Volumes Modernes',
     category: 'facade',
-    location: 'Agoè Télécom, Lomé',
-    description: 'Soulignement des volumes architecturaux avec contraste de teintes résistant aux UV tropicaux.'
-  },
-  {
-    id: 'fac-03',
-    src: '/images/gallery/golden-gate-44.jpeg',
-    title: 'Enduit Extérieur & Protection Anti-Fissures',
-    category: 'facade',
-    location: 'Cacaveli, Lomé',
-    description: 'Réparation des microfissures et pose d\'une résine souple élastomère haute durabilité.'
-  },
-  {
-    id: 'fac-04',
-    src: '/images/gallery/golden-gate-45.jpeg',
-    title: 'Peinture Façade Résidence Privée',
-    category: 'facade',
-    location: 'Hédzranawoé, Lomé',
-    description: 'Rénovation totale extérieure avec protection renforcée contre les pluies de mousson.'
-  },
-  {
-    id: 'fac-05',
-    src: '/images/gallery/golden-gate-46.jpeg',
-    title: 'Traitement Murs de Clôture & Portails',
-    category: 'facade',
     location: 'Tokoin, Lomé',
-    description: 'Peinture minérale imperméable et vernis de protection anti-poussière.'
-  },
-  {
-    id: 'fac-06',
-    src: '/images/gallery/golden-gate-49.jpeg',
-    title: 'Mise en Couleur Façade d\'Immeuble',
-    category: 'facade',
-    location: 'Zone Portuaire, Lomé',
-    description: 'Chantier grande envergure réalisé dans les délais stricts avec sécurité totale.'
-  },
-  {
-    id: 'fac-07',
-    src: '/images/gallery/golden-gate-51.jpeg',
-    title: 'Rénovation Façade Villa R+2',
-    category: 'facade',
-    location: 'Adidogomé, Lomé',
-    description: 'Nettoyage haute pression, sous-couche d\'accroche et bi-couche siloxane anti-algues.'
+    description: 'Soulignement des volumes architecturaux avec contraste de teintes résistant aux rayonnements solaires.'
   },
   {
     id: 'fac-08',
-    src: '/images/gallery/golden-gate-54.jpeg',
-    title: 'Détails Architecturaux & Balcons Extérieurs',
+    src: '/images/gallery/golden-gate-45.webp',
+    title: 'Peinture Façade Résidence Privée',
     category: 'facade',
-    location: 'Kodjoviakopé, Lomé',
-    description: 'Finition soignée des avant-toits, acrotères et sous-faces de dalles extérieures.'
+    location: 'Zone Portuaire, Lomé',
+    description: 'Rénovation totale extérieure avec protection renforcée contre les pluies de mousson.'
   },
   {
     id: 'fac-09',
-    src: '/images/gallery/golden-gate-56.jpeg',
+    src: '/images/gallery/golden-gate-56.webp',
     title: 'Façade Étanche aux Embruns Marins',
     category: 'facade',
     location: 'Baguida Côte, Lomé',
-    description: 'Peinture spécifique résistante au sel marin et au climat côtier de Lomé.'
-  },
-  {
-    id: 'fac-10',
-    src: '/images/gallery/golden-gate-57.jpeg',
-    title: 'Embellissement Extérieur & Colonnes',
-    category: 'facade',
-    location: 'Agoè Minamadou, Lomé',
-    description: 'Colonnes moulurées extérieures et enduit lissé hydrofuge.'
-  },
-  {
-    id: 'fac-11',
-    src: '/images/gallery/golden-gate-63.jpeg',
-    title: 'Façade Latérale Protégée Contre l\'Humidité',
-    category: 'facade',
-    location: 'Totsi, Lomé',
-    description: 'Imperméabilisation des parois exposées aux intempéries saisonnières.'
-  },
-  {
-    id: 'fac-12',
-    src: '/images/gallery/golden-gate-65.jpeg',
-    title: 'Finition Façade Éclatante',
-    category: 'facade',
-    location: 'La Pampa, Lomé',
-    description: 'Rendu impeccable sous la lumière solaire avec garantie de tenue dans le temps.'
+    description: 'Peinture spécifique de qualité marine résistante au sel et au climat côtier de Lomé.'
   },
 
   // --- 4. STUC & EFFETS DÉCORATIFS ---
   {
     id: 'eff-01',
-    src: '/images/gallery/golden-gate-87.jpeg',
-    title: 'Stuc Vénitien Effet Marbre Poli',
+    src: '/images/gallery/golden-gate-102.webp',
+    title: 'Stucco Vénitien Blanc Nacre & Lignes Graphiques Noires',
     category: 'effets',
     location: 'Agoè-Nyivé, Lomé',
-    description: 'Enduit à la chaux lissé à la spatule avec cire protectrice brillante effet miroir.'
+    description: 'Revêtement mural d\'exception lissé à la truelle italienne effet marbre blanc de Carrare et graphismes sombres.'
   },
   {
     id: 'eff-02',
-    src: '/images/gallery/golden-gate-88.jpeg',
-    title: 'Mur Décoratif Texturé & Relief 3D',
+    src: '/images/gallery/golden-gate-106.webp',
+    title: 'Béton Ciré Chaud Mousseux & Éclairage Spots Encastrés',
     category: 'effets',
     location: 'Cacaveli, Lomé',
-    description: 'Jeu d\'ombres et de textures en staff sculpté pour hall d\'entrée majestueux.'
+    description: 'Enduit décoratif minéral effet béton ciré brun marbré mis en valeur par des spots halogènes encastrés.'
   },
   {
     id: 'eff-03',
-    src: '/images/gallery/golden-gate-90.jpeg',
-    title: 'Tête de Lit en Staff Mural Rétroéclairé',
+    src: '/images/gallery/golden-gate-110.webp',
+    title: 'Stucco Vénitien Terracotta & Sol Époxy Noir Brillant Miroir',
     category: 'effets',
     location: 'Hédzranawoé, Lomé',
-    description: 'Panneau décoratif sur-mesure intégrant prises, liseuses et éclairage d\'ambiance.'
+    description: 'Contraste spectaculaire entre enduit stuc nuagé terracotta et sol coulé en résine époxy noir brillant.'
   },
   {
     id: 'eff-04',
-    src: '/images/gallery/golden-gate-91.jpeg',
-    title: 'Enduit Nacré & Reflets Métallisés',
+    src: '/images/gallery/golden-gate-113.webp',
+    title: 'Sol en Béton Ciré & Résine Époxy Bleu Turquoise Effet Lagon',
     category: 'effets',
     location: 'Tokoin, Lomé',
-    description: 'Peinture décorative sablée avec micro-paillettes or pour salon de réception.'
+    description: 'Réalisation exclusive d\'un sol coulé décoratif bleu lagon miroir d\'une brillance inégalée.'
   },
   {
     id: 'eff-05',
-    src: '/images/gallery/golden-gate-92.jpeg',
-    title: 'Faux-Marbre & Veinures Réalisées Main',
+    src: '/images/gallery/golden-gate-8.webp',
+    title: 'Stucco Vénitien Effet Marbre Onyx & Veinures Dorées Lustrées',
     category: 'effets',
     location: 'Kodjoviakopé, Lomé',
-    description: 'Imitation marbre de carrare sur colonnes et soubassements par notre artiste peintre.'
+    description: 'Travail artistique de stuc poli effet agate naturelle avec veinures obliques dorées et terre cuite.'
   },
   {
     id: 'eff-06',
-    src: '/images/gallery/golden-gate-96.jpeg',
-    title: 'Niche Murale Décorative en Staff',
+    src: '/images/gallery/golden-gate-90.webp',
+    title: 'Habillage Mur TV Design avec Rétroéclairage LED Ambré',
     category: 'effets',
     location: 'Baguida, Lomé',
-    description: 'Niches cintrées encastrées dans la maçonnerie avec spots LED miniatures.'
+    description: 'Panneau mural TV sur-mesure combinant tasseaux de bois, staff et gorges lumineuses LED chaudes.'
   },
   {
     id: 'eff-07',
-    src: '/images/gallery/golden-gate-97.jpeg',
-    title: 'Arche Orientale Moulurée en Plâtre',
+    src: '/images/gallery/golden-gate-96.webp',
+    title: 'Niche Murale Décorative en Staff',
     category: 'effets',
     location: 'Agoè Télécom, Lomé',
-    description: 'Passage entre salon et salle à manger orné d\'une arche sculptée sur-mesure.'
+    description: 'Niches cintrées encastrées dans la maçonnerie avec spots LED miniatures.'
   },
   {
     id: 'eff-08',
-    src: '/images/gallery/golden-gate-98.jpeg',
+    src: '/images/gallery/golden-gate-98.webp',
     title: 'Habillage Mural Contemporain & Baguettes',
     category: 'effets',
     location: 'Totsi, Lomé',
     description: 'Moulures murales façon boiseries haussmanniennes en staff haute densité.'
   },
-  {
-    id: 'eff-09',
-    src: '/images/gallery/golden-gate-99.jpeg',
-    title: 'Plafond Étoilé & Ciel Lumineux',
-    category: 'effets',
-    location: 'Adidogomé, Lomé',
-    description: 'Intégration de fibres optiques scintillantes dans le faux-plafond en staff.'
-  },
-  {
-    id: 'eff-10',
-    src: '/images/gallery/golden-gate-103.jpeg',
-    title: 'Peinture à Effet Béton Ciré Urbain',
-    category: 'effets',
-    location: 'La Pampa, Lomé',
-    description: 'Enduit minéral lissé pour un style loft contemporain très tendance à Lomé.'
-  },
-  {
-    id: 'eff-11',
-    src: '/images/gallery/golden-gate-107.jpeg',
-    title: 'Décoration Murale Florale Sculptée',
-    category: 'effets',
-    location: 'Nyékonakpoé, Lomé',
-    description: 'Bas-relief en plâtre façonné directement sur le mur par nos artisans.'
-  },
-  {
-    id: 'eff-12',
-    src: '/images/gallery/golden-gate-114.jpeg',
-    title: 'Finitions de Luxe & Ornementation Or',
-    category: 'effets',
-    location: 'Cacaveli, Lomé',
-    description: 'Rehauts à la feuille d\'or et patine dorée sur moulures de plafond.'
-  },
 
   // --- 5. CHANTIERS & COULISSES DU SAVOIR-FAIRE ---
   {
     id: 'chant-01',
-    src: '/images/gallery/golden-gate-10.jpeg',
-    title: 'Préparation et Protection Totale du Chantier',
+    src: '/images/gallery/golden gate one .webp',
+    title: 'Application de Peinture au Pistolet Airless sur Portail Métallique',
     category: 'chantier',
     location: 'Agoè-Nyivé, Lomé',
-    description: 'Bâchage des sols, calicotage des joints et masquage haute adhérence avant travaux.'
+    description: 'Projection de peinture haute pression airless pour un rendu lisse et anticorrosion parfait sur grilles et portails.'
   },
   {
     id: 'chant-02',
-    src: '/images/gallery/golden-gate-14.jpeg',
-    title: 'Ossature & Fixation des Suspentes du Staff',
+    src: '/images/gallery/golden-gate-10.webp',
+    title: 'Travaux en Hauteur sur Échafaudage sous Mezzanine Cathédrale',
     category: 'chantier',
     location: 'Baguida, Lomé',
-    description: 'Alignement au niveau laser et ancrage sécurisé des structures suspendues.'
+    description: 'Artisans équipés de gilets de sécurité travaillant sur échafaudage sur un plafond à grande hauteur sous toit.'
   },
   {
     id: 'chant-03',
-    src: '/images/gallery/golden-gate-20.jpeg',
-    title: 'Fabrication des Plaques de Staff en Atelier',
+    src: '/images/gallery/golden-gate-103.webp',
+    title: 'Travail d\'Équipe sur Échafaudage : Peinture du Faux-Plafond Staff',
     category: 'chantier',
     location: 'La Pampa (Atelier), Lomé',
-    description: 'Coulage du plâtre moulé fibré au sisal dans nos ateliers togolais.'
+    description: 'Compagnons peintres de Golden Gate appliquant la couche de finition mate au rouleau sur plafond suspendu.'
   },
   {
     id: 'chant-04',
-    src: '/images/gallery/golden-gate-22.jpeg',
-    title: 'Ponçage Haute Précision & Lumière Rasante',
+    src: '/images/gallery/golden-gate-2.webp',
+    title: 'Application de Crépi Texturé par une Artisane Plâtrière',
     category: 'chantier',
     location: 'Tokoin, Lomé',
-    description: 'Contrôle qualité millimétré pour éliminer toute trace ou imperfection avant peinture.'
+    description: 'Savoir-faire et minutie : façonnage manuel du relief strié sur enduit mural d\'extérieur.'
   },
   {
     id: 'chant-05',
-    src: '/images/gallery/golden-gate-25.jpeg',
-    title: 'Application de l\'Enduit de Finition Croisé',
+    src: '/images/gallery/golden-gate-5.webp',
+    title: 'Enduisage & Ratissage des Joints de Plafond en Staff à la Spatule',
     category: 'chantier',
     location: 'Hédzranawoé, Lomé',
-    description: 'Geste artisanal précis au platoir pour une planéité absolue des murs.'
+    description: 'Traitement minutieux des bandes de jointoiement sur plaques de plâtre par nos compagnons staffeurs.'
   },
   {
     id: 'chant-06',
-    src: '/images/gallery/golden-gate-32.jpeg',
-    title: 'Montage des Échafaudages Sécurisés',
+    src: '/images/gallery/golden-gate-9.webp',
+    title: 'Pose & Lissage de Faux-Plafond Staff Géométrique sous Mezzanine',
     category: 'chantier',
     location: 'Agoè Télécom, Lomé',
-    description: 'Travail en hauteur sécurisé pour plafonds cathédrales et grands salons.'
+    description: 'Chantier d\'envergure sur double hauteur sous plafond avec décaissés géométriques et suspensions design.'
   },
   {
     id: 'chant-07',
-    src: '/images/gallery/golden-gate-34.jpeg',
-    title: 'Câblage & Intégration des Rubans LED',
+    src: '/images/gallery/golden-gate-87.webp',
+    title: 'Finition Soignée des Arêtes de Mezzanine sur Échafaudage',
     category: 'chantier',
     location: 'Cacaveli, Lomé',
-    description: 'Pose des profilés aluminium dissipateurs et raccordements électriques sécurisés.'
+    description: 'Ajustement millimétré des angles et soubassements de mezzanine au couteau à enduire.'
   },
   {
     id: 'chant-08',
-    src: '/images/gallery/golden-gate-42.jpeg',
-    title: 'Pose des Corniches d\'Angle et Raccords',
+    src: '/images/gallery/golden-gate-91.webp',
+    title: 'Fabrication & Pose Traditionnelle de Staff avec Filasse de Sisal',
     category: 'chantier',
     location: 'Kodjoviakopé, Lomé',
-    description: 'Assemblage invisible des joints avec colle plâtre spéciale sans fissure.'
+    description: 'Plâtre de moulage superfins armé de fibres végétales de sisal pour une résistance mécanique d\'exception.'
   },
   {
     id: 'chant-09',
-    src: '/images/gallery/golden-gate-80.jpeg',
+    src: '/images/gallery/golden-gate-80.webp',
     title: 'Nettoyage Fin de Chantier & Débâchage',
     category: 'chantier',
     location: 'Adidogomé, Lomé',
-    description: 'Livraison d\'un chantier immaculé, nettoyé et prêt à habiter.'
+    description: 'Livraison d\'un chantier immaculé, dépoussiéré, nettoyé et immédiatement prêt à habiter.'
   },
   {
     id: 'chant-10',
-    src: '/images/gallery/golden-gate-84.jpeg',
-    title: 'Vérification Finale avec le Client',
+    src: '/images/gallery/golden-gate-84.webp',
+    title: 'Vérification Finale & Réception des Travaux avec le Client',
     category: 'chantier',
     location: 'Totsi, Lomé',
-    description: 'Réception des travaux avec le propriétaire et garantie de satisfaction 100%.'
-  },
-  {
-    id: 'chant-11',
-    src: '/images/gallery/golden-gate-89.jpeg',
-    title: 'Équipe Golden Gate en Pleine Action',
-    category: 'chantier',
-    location: 'La Pampa, Lomé',
-    description: 'Nos compagnons peintres et staffeurs passionnés par l\'art de la perfection.'
-  },
-  {
-    id: 'chant-12',
-    src: '/images/gallery/golden-gate-106.jpeg',
-    title: 'Contrôle de Teinte & Échantillons sur Mur',
-    category: 'chantier',
-    location: 'Nyékonakpoé, Lomé',
-    description: 'Validation de la couleur avec le client à la lumière du jour avant application totale.'
-  },
-  {
-    id: 'chant-13',
-    src: '/images/gallery/golden-gate-112.jpeg',
-    title: 'Moulage Sur-Mesure de Motifs Décoratifs',
-    category: 'chantier',
-    location: 'La Pampa (Atelier), Lomé',
-    description: 'Création artisanale de pièces uniques pour villas d\'exception au Togo.'
+    description: 'Réception des travaux avec le maître d\'ouvrage et garantie de satisfaction à 100%.'
   }
 ];

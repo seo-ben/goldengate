@@ -7,7 +7,7 @@ export function TrustMetrics() {
     {
       value: `+${COMPANY.stats.projectsDone}`,
       label: 'Chantiers Livrés',
-      detail: 'Villas, appartements & commerces à Lomé',
+      detail: 'Villas, appartements & commerces en Afrique',
       color: 'from-amber-400 to-yellow-500'
     },
     {
@@ -27,6 +27,12 @@ export function TrustMetrics() {
       label: 'Délai de Réponse',
       detail: 'Disponibilité 7j/7 sur WhatsApp',
       color: 'from-purple-400 to-indigo-500'
+    },
+    {
+      value: `${COMPANY.stats.countriesServed}`,
+      label: 'Pays Couverts',
+      detail: 'Présence sur tout le continent africain',
+      color: 'from-rose-400 to-pink-500'
     }
   ];
 

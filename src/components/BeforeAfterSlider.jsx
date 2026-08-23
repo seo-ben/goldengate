@@ -66,6 +66,7 @@ export function BeforeAfterSlider() {
                 alt="Après : Salon de luxe avec faux-plafond staff LED et peinture velours par Golden Gate"
                 className="w-full h-full object-cover object-center pointer-events-none"
                 draggable={false}
+                loading="lazy"
               />
               <div className="absolute bottom-4 right-4 bg-emerald-600/90 backdrop-blur-md px-3 sm:px-4 py-1 sm:py-1.5 rounded-full text-white text-xs sm:text-sm font-bold shadow-md">
                 ✓ APRÈS : Finition Golden Gate
@@ -82,6 +83,7 @@ export function BeforeAfterSlider() {
                 alt="Avant : Chantier brut en parpaings non peints et câbles électriques"
                 className="w-full h-full object-cover object-center pointer-events-none"
                 draggable={false}
+                loading="lazy"
               />
               <div className="absolute bottom-4 left-4 bg-slate-900/90 backdrop-blur-md px-3 sm:px-4 py-1 sm:py-1.5 rounded-full text-slate-200 text-xs sm:text-sm font-bold shadow-md">
                 ⚠ AVANT : Pièce Brute

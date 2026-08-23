@@ -17,12 +17,18 @@ import {
   CheckCircleIcon,
   MapPinIcon
 } from '../components/Icons';
+import { SEO } from '../components/SEO';
 
 export function HomePage() {
   const [openFaqIndex, setOpenFaqIndex] = useState(0);
 
   return (
     <div className="space-y-0 bg-white">
+      <SEO
+        title="Golden Gate | Peinture d'Exception, Béton Ciré & Staff Haut de Gamme — Togo & Toute l'Afrique"
+        description="Entreprise experte en faux-plafonds en staff mouluré, gorges lumineuses LED, peinture intérieure haute définition, béton ciré et ravalement de façade. Siège à Lomé (Togo), interventions dans 54 pays."
+        path=""
+      />
 
       {/* 1. Hero Section Compacte avec Vidéo et Texte Auto-Écrit */}
       <Hero />
@@ -39,7 +45,7 @@ export function HomePage() {
                   className="text-3xl sm:text-4xl font-extrabold font-serif text-slate-900"
                 />
                 <p className="text-xs sm:text-sm font-bold text-slate-800 mt-1">Chantiers Réalisés</p>
-                <p className="text-[11px] text-slate-500">Villas &amp; résidences à Lomé</p>
+                <p className="text-[11px] text-slate-500">Villas &amp; résidences en Afrique</p>
               </div>
 
               <div className="p-3 bg-white/80 rounded-2xl border border-slate-200/80 shadow-2xs">
@@ -69,7 +75,7 @@ export function HomePage() {
                   className="text-3xl sm:text-4xl font-extrabold font-serif text-emerald-600"
                 />
                 <p className="text-xs sm:text-sm font-bold text-slate-800 mt-1">Clients Satisfaits</p>
-                <p className="text-[11px] text-slate-500">8 ans de savoir-faire au Togo</p>
+                <p className="text-[11px] text-slate-500">8 ans de savoir-faire en Afrique</p>
               </div>
             </div>
           </ScrollReveal>

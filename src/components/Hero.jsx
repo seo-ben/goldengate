@@ -53,7 +53,7 @@ export function Hero() {
           loop
           muted
           playsInline
-          poster="/images/gallery/golden gate two.png"
+          poster="/images/gallery/golden gate two.webp"
           className="w-full h-full object-cover object-center scale-105"
         >
           <source src="/videos/golden-gate-chantier.mp4" type="video/mp4" />
@@ -91,13 +91,13 @@ export function Hero() {
 
         {/* Sous-titre concis */}
         <p className="text-sm sm:text-base md:text-lg text-slate-200 max-w-2xl mx-auto leading-relaxed font-light drop-shadow-sm">
-          Spécialiste de la transformation de vos intérieurs et façades au <strong>Togo, dans la sous-région et dans tous les pays d'Afrique</strong>. Faux-plafonds moulurés en staff, gorges lumineuses LED, béton ciré et peintures satinées haute durabilité.
+          Spécialiste de la transformation de vos intérieurs et façades dans les <strong>54 pays d'Afrique</strong> : Lomé, Abidjan, Dakar, Douala, Libreville, Kinshasa, Nairobi, Casablanca et bien plus. Faux-plafonds moulurés en staff, gorges lumineuses LED, béton ciré et peintures satinées haute durabilité.
         </p>
 
         {/* Les 2 Boutons d'Action (sans rien après) */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">
           <a
-            href={getWhatsAppUrl("Bonjour Golden Gate, je souhaiterais obtenir des informations et un devis gratuit pour mon projet à Lomé. Merci.")}
+            href={getWhatsAppUrl("Bonjour Golden Gate, je souhaiterais obtenir des informations et un devis gratuit pour mon projet. Merci.")}
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto px-7 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-sm sm:text-base shadow-lg shadow-emerald-950/50 transition-all flex items-center justify-center gap-2.5 transform hover:-translate-y-0.5 cursor-pointer"

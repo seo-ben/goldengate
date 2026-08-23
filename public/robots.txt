@@ -1,0 +1,9 @@
+# Golden Gate — Peinture & Staff d'Excellence — Togo & Toute l'Afrique
+# https://goldengatebulder.com
+
+User-agent: *
+Allow: /
+Disallow: /node_modules/
+Disallow: /src/
+
+Sitemap: https://goldengatebulder.com/sitemap.xml

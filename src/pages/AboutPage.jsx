@@ -3,20 +3,27 @@ import { getWhatsAppUrl } from '../config/constants';
 import { ScrollReveal } from '../components/ScrollReveal';
 import { RealWorkGallery } from '../components/RealWorkGallery';
 import { WhatsAppIcon, ShieldCheckIcon, SparklesIcon, CrownIcon, ClockIcon, CheckCircleIcon } from '../components/Icons';
+import { SEO } from '../components/SEO';
 
 export function AboutPage() {
   return (
     <div className="bg-white min-h-screen">
+      <SEO
+        title="À Propos de Golden Gate | Maîtres Artisans Staffeurs & Peintres en Afrique"
+        description="Basée à Lomé (Togo), Golden Gate réunit des maîtres artisans spécialisés dans le travail d'exception du plâtre staff et de la peinture haute finition pour villas et résidences de standing en Afrique."
+        keywords="Entreprise de peinture Lomé, Entreprise staffeur Togo, Maître staffeur Afrique, Artisans bâtiment Lomé, Golden Gate décoration"
+        path="/a-propos"
+      />
 
       {/* En-tête de la page À Propos */}
       <section className="py-16 md:py-20 bg-dot-pattern border-b border-slate-200 text-center overflow-hidden">
         <div className="max-w-4xl mx-auto px-4">
           <ScrollReveal animation="fade-up">
             <h1 className="text-3xl sm:text-5xl font-extrabold font-serif text-slate-900 mb-4">
-              L'Excellence Artisanale au Togo &amp; dans Toute l'Afrique
+              L'Excellence Artisanale au Togo &amp; sur Tout le Continent Africain
             </h1>
             <p className="text-sm sm:text-base text-slate-600 max-w-2xl mx-auto leading-relaxed">
-              Basée à Lomé (Togo), l'entreprise Golden Gate déploie ses maîtres artisans au Togo, dans la sous-région et dans l'ensemble des pays d'Afrique pour offrir un travail de finition d'exception alliant tradition du staff et modernité de la peinture.
+              Basée à Lomé (Togo), l'entreprise Golden Gate déploie ses maîtres artisans dans les <strong>54 pays du continent africain</strong> : Cotonou, Abidjan, Accra, Dakar, Douala, Libreville, Kinshasa, Nairobi, Casablanca, Johannesburg et bien d'autres. Un travail de finition d'exception alliant tradition du staff et modernité de la peinture.
             </p>
           </ScrollReveal>
         </div>
@@ -45,7 +52,7 @@ export function AboutPage() {
                 </div>
                 <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200">
                   <span className="text-2xl font-extrabold font-serif text-slate-900">8 Ans</span>
-                  <p className="text-xs font-bold text-slate-700 mt-1">D'Expérience en Afrique</p>
+                  <p className="text-xs font-bold text-slate-700 mt-1">D'Expérience sur le Continent Africain</p>
                 </div>
               </div>
             </ScrollReveal>
@@ -55,7 +62,7 @@ export function AboutPage() {
             <ScrollReveal animation="slide-left" delay={150} duration={800}>
               <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-200 aspect-[4/3] group">
                 <img
-                  src="/images/gallery/golden-gate-20.jpeg"
+                  src="/images/gallery/golden-gate-20.webp"
                   alt="Artisans en atelier de fabrication du staff chez Golden Gate à La Pampa"
                   className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
                 />

@@ -1,7 +1,7 @@
 export const FAQS = [
   {
     question: 'Le devis et le déplacement sur mon chantier sont-ils vraiment 100% gratuits ?',
-    answer: 'Oui, absolument. Nous nous déplaçons gratuitement sur votre chantier partout dans le Grand Lomé pour mesurer les surfaces, évaluer l\'état des murs ou des plafonds et comprendre précisément vos attentes. Vous recevez ensuite un devis détaillé, clair et sans aucun engagement sous 24 heures.',
+    answer: 'Oui, absolument. Nous nous déplaçons gratuitement sur votre chantier partout dans le Grand Lomé pour mesurer les surfaces, évaluer l\'état des murs ou des plafonds et comprendre précisément vos attentes. Vous recevez ensuite un devis détaillé, clair et sans aucun engagement sous 24 heures. Pour les projets hors du Togo, le devis est réalisé à distance via WhatsApp (photos, vidéos, plans).',
     tag: 'Devis & Prix'
   },
   {
@@ -11,7 +11,7 @@ export const FAQS = [
   },
   {
     question: 'Fournissez-vous la peinture et le staff, ou puis-je fournir mes propres matériaux ?',
-    answer: 'Nous proposons les deux formules selon votre préférence : formule "Clé en main" (nous sélectionnons et fournissons les meilleures marques de peinture professionnelles et du plâtre de staff de premier choix) ou formule "Main d\'œuvre uniquement" si vous préférez acheter vos propres fournitures. Nous vous conseillons toujours sur les meilleurs produits adaptés au climat de Lomé.',
+    answer: 'Nous proposons les deux formules selon votre préférence : formule "Clé en main" (nous sélectionnons et fournissons les meilleures marques de peinture professionnelles et du plâtre de staff de premier choix) ou formule "Main d\'œuvre uniquement" si vous préférez acheter vos propres fournitures. Nous vous conseillons toujours sur les meilleurs produits adaptés au climat local, que ce soit au Togo ou dans tout autre pays d\'Afrique.',
     tag: 'Matériaux'
   },
   {
@@ -28,5 +28,15 @@ export const FAQS = [
     question: 'Comment garantissez-vous la propreté de mon logement pendant les travaux ?',
     answer: 'La protection de votre intérieur est notre priorité absolue : avant de poser le premier coup de pinceau ou de préparer le staff, nous protégeons l\'intégralité des sols avec des bâches épaisses, emballons vos meubles sous film plastique et masquons les prises, interrupteurs et plinthes. Le chantier est nettoyé chaque soir et restitué impeccable.',
     tag: 'Propreté'
+  },
+  {
+    question: 'Intervenez-vous en dehors du Togo ? Dans quels pays d\'Afrique ?',
+    answer: 'Oui ! Golden Gate intervient dans les 54 pays du continent africain. Nos équipes sont régulièrement mobilisées au Bénin (Cotonou, Porto-Novo), au Ghana (Accra), en Côte d\'Ivoire (Abidjan), au Sénégal (Dakar), au Cameroun (Douala, Yaoundé), au Gabon (Libreville), en RDC (Kinshasa), au Congo-Brazzaville, au Burkina Faso (Ouagadougou), en Guinée (Conakry), au Mali (Bamako), au Niger (Niamey), au Kenya (Nairobi), au Maroc (Casablanca), en Afrique du Sud (Johannesburg) et dans bien d\'autres pays. Contactez-nous sur WhatsApp pour toute demande internationale.',
+    tag: 'Couverture Africaine'
+  },
+  {
+    question: 'Comment se déroule un chantier dans un autre pays d\'Afrique ?',
+    answer: 'Le processus est simple et rodé : (1) Vous nous contactez sur WhatsApp avec des photos/vidéos du chantier et vos attentes. (2) Nous réalisons un devis détaillé à distance sous 48h. (3) Une fois le devis validé et l\'acompte versé, nous organisons la mobilisation de notre équipe qualifiée avec toute la logistique (transport, hébergement, matériel spécialisé). (4) Nos artisans arrivent sur place et réalisent les travaux dans les délais convenus. (5) Réception finale et satisfaction garantie. Nous gérons l\'intégralité de la logistique pour vous.',
+    tag: 'Logistique Internationale'
   }
 ];

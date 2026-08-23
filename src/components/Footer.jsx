@@ -17,22 +17,23 @@ export function Footer() {
           <div className="lg:col-span-5 space-y-4">
             <div className="flex items-center gap-3">
               <img
-                src="/logo.png"
+                src="/logo.webp"
                 alt="Golden Gate Logo"
                 className="h-10 sm:h-12 w-auto object-contain"
+                loading="lazy"
               />
               <div>
                 <span className="text-xl font-extrabold tracking-wider text-slate-900 font-serif leading-none block">
                   GOLDEN GATE
                 </span>
                 <p className="text-[10px] sm:text-[11px] font-bold text-amber-600 uppercase tracking-wider mt-1">
-                  Peinture &amp; Staff d'Excellence • Lomé
+                  Peinture & Staff d'Excellence • Lomé • Toute l'Afrique
                 </p>
               </div>
             </div>
 
             <p className="text-slate-600 text-xs leading-relaxed max-w-md">
-              Entreprise togolaise experte en faux-plafonds en staff mouluré, corniches lumineuses LED, peinture intérieure satinée, béton ciré, ravalement de façades et stuc. Interventions au Togo, dans la sous-région et dans tous les pays d'Afrique.
+              Entreprise togolaise experte en faux-plafonds en staff mouluré, corniches lumineuses LED, peinture intérieure satinée, béton ciré, enduits gréx &amp; graffiato, ravalement de façades et stuc. Siège à Lomé (Togo), interventions dans les 54 pays du continent africain.
             </p>
 
             {/* Boutons d'Action Rapides sur la MÊME ligne */}
@@ -83,7 +84,8 @@ export function Footer() {
                 <li><Link to="/services" className="hover:text-slate-950 transition-colors">Gorges LED</Link></li>
                 <li><Link to="/services" className="hover:text-slate-950 transition-colors">Peinture Satinée</Link></li>
                 <li><Link to="/services" className="hover:text-slate-950 transition-colors">Façades &amp; Murs</Link></li>
-                <li><Link to="/services" className="hover:text-slate-950 transition-colors">Béton Ciré &amp; Stucco</Link></li>
+                <li><Link to="/services" className="hover:text-slate-950 transition-colors">Stucco Vénitien</Link></li>
+                <li><Link to="/services" className="hover:text-slate-950 transition-colors text-amber-700 font-bold">Gréx &amp; Graffiato</Link></li>
               </ul>
             </div>
 
@@ -116,7 +118,17 @@ export function Footer() {
               </p>
 
               <p className="text-xs text-slate-500 pt-1 font-medium">
-                Interventions au Togo, sous-région &amp; toute l'Afrique
+                Interventions dans les 54 pays d'Afrique
+              </p>
+            </div>
+
+            {/* Pays clés desservis */}
+            <div className="pt-3 mt-2 border-t border-slate-100">
+              <p className="text-[10px] text-slate-400 leading-relaxed">
+                {COMPANY.keyCountries.slice(0, 12).map((c, i) => (
+                  <span key={i}>{i > 0 && ' • '}{c.flag} {c.name}</span>
+                ))}
+                <span className="text-amber-600 font-bold"> +42 pays</span>
               </p>
             </div>
           </div>
@@ -126,7 +138,7 @@ export function Footer() {
         {/* Ligne de Copyright & Mentions */}
         <div className="mt-10 pt-6 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-3 text-slate-500 text-[11px]">
           <p>© {currentYear} {COMPANY.legalName}. Tous droits réservés.</p>
-          <p className="font-medium text-slate-600">Décoration d'intérieur &amp; finitions d'excellence à Lomé</p>
+          <p className="font-medium text-slate-600">Décoration d'intérieur &amp; finitions d'excellence — Togo &amp; 54 pays d'Afrique</p>
         </div>
 
       </div>

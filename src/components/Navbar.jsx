@@ -34,7 +34,7 @@ export function Navbar() {
   };
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-white/95 backdrop-blur-md border-b border-slate-200/80 shadow-xs transition-all relative">
+    <header className="sticky top-0 z-40 w-full bg-white/95 backdrop-blur-md border-b border-slate-200/80 shadow-xs transition-all relative">
       {/* Barre de progression dorée discrète */}
       <div
         className="absolute bottom-0 left-0 h-[2.5px] bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-300 transition-all duration-150 z-50 pointer-events-none"
@@ -75,7 +75,7 @@ export function Navbar() {
         {/* Logo & Nom de Marque Officiel */}
         <Link to="/" className="flex items-center gap-2.5 sm:gap-3 group">
           <img
-            src="/logo.png"
+            src="/logo.webp"
             alt="Golden Gate Logo"
             className="h-10 sm:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
           />

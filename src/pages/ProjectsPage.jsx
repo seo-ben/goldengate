@@ -1,10 +1,17 @@
 import React from 'react';
 import { ScrollReveal } from '../components/ScrollReveal';
 import { RealWorkGallery } from '../components/RealWorkGallery';
+import { SEO } from '../components/SEO';
 
 export function ProjectsPage() {
   return (
     <div className="bg-white min-h-screen">
+      <SEO
+        title="Nos Réalisations & Chantiers | Staff, Peinture & Façade — Lomé & Afrique"
+        description="Découvrez plus de 160 chantiers livrés avec succès : faux-plafonds en staff mouluré avec gorges LED, peintures veloutées sans trace, et ravalements de villas à Lomé (Togo) et dans toute l'Afrique."
+        keywords="Réalisations peinture Lomé, Photos faux plafond staff Togo, Chantiers staffeur Cotonou, Décoration villa Abidjan, Galerie peinture bâtiment Afrique"
+        path="/realisations"
+      />
 
       {/* En-tête de la page Réalisations */}
       <section className="py-16 md:py-20 bg-dot-pattern border-b border-slate-200 text-center overflow-hidden">

@@ -7,7 +7,7 @@ const STEPS = [
     title: "Diagnostic & Visite Gratuite",
     subtitle: "Prise de métré chez vous à Lomé",
     desc: "Nous nous déplaçons gratuitement dans votre villa ou appartement partout à Lomé pour évaluer l'état des murs, vérifier l'humidité et prendre les mesures exactes.",
-    image: "/images/gallery/golden-gate-10.jpeg",
+    image: "/images/gallery/golden-gate-10.webp",
     imageLabel: "Étape 1 : Visite sur site & Diagnostic technique",
     icon: <ClockIcon size={20} className="text-amber-600" />
   },
@@ -16,7 +16,7 @@ const STEPS = [
     title: "Devis Transparent sous 24h",
     subtitle: "Prix ferme sans aucun surcoût",
     desc: "Vous recevez une proposition détaillée par écrit avec le choix des matériaux (staff fibré, peintures satinées lessivables) et un calendrier précis d'exécution.",
-    image: "/images/gallery/golden-gate-20.jpeg",
+    image: "/images/gallery/golden-gate-2.webp",
     imageLabel: "Étape 2 : Préparation sur-mesure & Conseils personnalisés",
     icon: <DocumentCheckIcon size={20} className="text-blue-600" />
   },
@@ -25,7 +25,7 @@ const STEPS = [
     title: "Chantier Bâché & Réalisation Soignée",
     subtitle: "Protection totale et ponçage propre",
     desc: "Nos maîtres artisans protègent minutieusement vos sols et mobiliers. Nous réalisons les faux-plafonds, l'enduisage sous lumière rasante et les couches de peinture sans poussière.",
-    image: "/images/gallery/golden-gate-25.jpeg",
+    image: "/images/gallery/golden-gate-5.webp",
     imageLabel: "Étape 3 : Exécution méticuleuse & Protection des lieux",
     icon: <SparklesIcon size={20} className="text-purple-600" />
   },
@@ -34,7 +34,7 @@ const STEPS = [
     title: "Contrôle & Livraison VIP",
     subtitle: "Paiement du solde uniquement après satisfaction",
     desc: "Nous inspectons ensemble chaque angle sous tous les éclairages. Le solde des travaux n'est réglé que lorsque le résultat est 100% parfait selon vos exigences.",
-    image: "/images/gallery/golden-gate-111.jpeg",
+    image: "/images/gallery/golden-gate-111.webp",
     imageLabel: "Étape 4 : Livraison de votre salon métamorphosé",
     icon: <ShieldCheckIcon size={20} className="text-emerald-600" />
   }

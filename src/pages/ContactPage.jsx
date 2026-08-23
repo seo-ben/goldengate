@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { COMPANY, getWhatsAppUrl } from '../config/constants';
 import { ScrollReveal } from '../components/ScrollReveal';
 import { WhatsAppIcon, PhoneIcon, MapPinIcon, ClockIcon, ArrowRightIcon, CheckCircleIcon } from '../components/Icons';
+import { SEO } from '../components/SEO';
 
 const BOT_QUESTIONS = [
   {
@@ -31,14 +32,22 @@ const BOT_QUESTIONS = [
   {
     step: 3,
     title: "3. Dans quel pays ou ville d'Afrique se situe le chantier ?",
-    placeholder: "Ex: Cotonou (Bénin), Abidjan (CI), Lomé (Togo)...",
+    placeholder: "Ex: Cotonou (Bénin), Abidjan (CI), Lomé (Togo), Nairobi (Kenya)...",
     options: [
       "Lomé & Environs (Togo)",
       "Villes de l'Intérieur du Togo (Kpalimé, Kara...)",
       "Bénin (Cotonou, Porto-Novo...)",
-      "Ghana (Accra, Tema...)",
+      "Ghana (Accra, Tema, Kumasi...)",
       "Côte d'Ivoire (Abidjan, Yamoussoukro...)",
-      "Autre Pays d'Afrique (Burkina, Sénégal, Gabon...)"
+      "Sénégal (Dakar, Saint-Louis...)",
+      "Cameroun (Douala, Yaoundé...)",
+      "Gabon (Libreville, Port-Gentil...)",
+      "Congo / RDC (Brazzaville, Kinshasa...)",
+      "Burkina Faso, Mali, Guinée, Niger",
+      "Afrique de l'Est (Kenya, Rwanda, Tanzanie...)",
+      "Afrique Australe (Afrique du Sud, Madagascar, Angola...)",
+      "Afrique du Nord (Maroc, Tunisie, Algérie...)",
+      "Autre pays d'Afrique"
     ]
   },
   {
@@ -82,6 +91,12 @@ export function ContactPage() {
 
   return (
     <div className="bg-white min-h-screen">
+      <SEO
+        title="Contact & Devis Gratuit | Peinture & Staff — Lomé (Togo) & 54 Pays d'Afrique"
+        description="Demandez votre devis 100% gratuit et instantané sur WhatsApp. Équipes mobiles basées à Lomé (Togo) prêtes à intervenir dans les 54 pays d'Afrique : Bénin, Côte d'Ivoire, Sénégal, Cameroun, RDC, Gabon, etc."
+        keywords="Devis peinture gratuit Lomé, Devis staffeur Togo, Contact peintre bâtiment Afrique, Prix faux plafond staff Lomé, WhatsApp Golden Gate"
+        path="/contact"
+      />
 
       {/* En-tête de la page Contact */}
       <section className="py-16 md:py-20 bg-dot-pattern border-b border-slate-200 text-center overflow-hidden">

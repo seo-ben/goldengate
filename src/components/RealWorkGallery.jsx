@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
+import { createPortal } from 'react-dom';
 import { REAL_GALLERY_CATEGORIES, REAL_GALLERY_IMAGES } from '../data/realGalleryData';
 import { getWhatsAppUrl } from '../config/constants';
 import { WhatsAppIcon, MapPinIcon } from './Icons';
@@ -79,6 +80,17 @@ export function RealWorkGallery({
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [selectedImage, handlePrev, handleNext]);
+
+  useEffect(() => {
+    if (selectedImage) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [selectedImage]);
 
   return (
     <section className="w-full py-16 md:py-20 bg-dot-pattern border-t border-b border-slate-200 relative overflow-hidden" id="galerie-photos">
@@ -209,10 +221,10 @@ export function RealWorkGallery({
       </div>
 
       {/* --- MODALE DE VISUALISATION PLEIN ÉCRAN CINÉMA : 1 SEULE IMAGE EN GRANDEUR TOTALE AVEC PLIAGE 3D --- */}
-      {selectedImage && (
+      {selectedImage && createPortal(
         <div
           onClick={() => setSelectedImage(null)}
-          className="fixed inset-0 z-50 bg-black/95 backdrop-blur-md flex flex-col justify-between p-3 sm:p-5 animate-fade-in select-none"
+          className="fixed inset-0 z-[99999] bg-black/95 backdrop-blur-md flex flex-col justify-between p-3 sm:p-5 animate-fade-in select-none"
           role="dialog"
           aria-modal="true"
         >
@@ -267,10 +279,10 @@ export function RealWorkGallery({
             {/* Flèche Précédent */}
             <button
               onClick={handlePrev}
-              className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 p-3.5 sm:p-4 rounded-full bg-slate-900/80 hover:bg-slate-900 border border-white/25 text-white transition-all z-50 cursor-pointer flex items-center justify-center shadow-2xl"
+              className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 p-3 sm:p-4 rounded-full bg-slate-900/80 hover:bg-slate-900 border border-white/25 text-white transition-all z-50 cursor-pointer flex items-center justify-center shadow-2xl"
               aria-label="Photo précédente"
             >
-              <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg className="w-5 h-5 sm:w-6 sm:h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M15 19l-7-7 7-7" />
               </svg>
             </button>
@@ -281,7 +293,7 @@ export function RealWorkGallery({
                 <img
                   src={prevImage.src}
                   alt=""
-                  className="max-w-full max-h-[75vh] w-auto h-auto object-contain rounded-2xl shadow-xl"
+                  className="max-w-full max-h-[65vh] sm:max-h-[75vh] w-auto h-auto object-contain rounded-2xl shadow-xl"
                 />
               </div>
             )}
@@ -300,7 +312,7 @@ export function RealWorkGallery({
                   e.stopPropagation();
                   setIsZoomed(!isZoomed);
                 }}
-                className={`max-w-full max-h-[75vh] w-auto h-auto object-contain rounded-2xl shadow-2xl transition-transform duration-300 ${
+                className={`max-w-full max-h-[65vh] sm:max-h-[75vh] w-auto h-auto object-contain rounded-2xl shadow-2xl transition-transform duration-300 ${
                   isZoomed ? 'scale-125 cursor-zoom-out' : 'cursor-zoom-in'
                 }`}
               />
@@ -343,7 +355,8 @@ export function RealWorkGallery({
             </a>
           </div>
 
-        </div>
+        </div>,
+        document.body
       )}
 
     </section>
