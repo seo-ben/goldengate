@@ -72,7 +72,7 @@ function prerender() {
     // Injection ou mise à jour des balises meta & Canonical
     const headMetas = `
     <!-- Méta SEO Pré-rendues pour Googlebot & Vérification Search Console -->
-    <meta name="google-site-verification" content="8eY3TwuC4bwW_UEduiTPYDMdYCUMQkXHn_iHw2WiCIo">
+    <meta name="google-site-verification" content="RfqLNyeW4FN36yzX52ODqHoRpf8gYlSifTbHb8egek8">
     <meta name="description" content="${route.description}">
     <meta name="keywords" content="${route.keywords}">
     <link rel="canonical" href="${canonicalUrl}">
