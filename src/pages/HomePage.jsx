@@ -34,9 +34,9 @@ export function HomePage() {
       <Hero />
 
       {/* 2. BANDEAU DE NOMBRE DE RÉALISATIONS AVEC COMPTEURS ANIMÉS AU SCROLL */}
-      <section className="py-12 bg-slate-50 border-b border-slate-200 overflow-hidden">
+      <section className="py-12 bg-slate-50 border-b border-slate-200 overflow-hidden min-h-[140px]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <ScrollReveal animation="fade-up" duration={800}>
+          <ScrollReveal animation="fade-in" duration={600}>
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 text-center">
               <div className="p-3 bg-white/80 rounded-2xl border border-slate-200/80 shadow-2xs">
                 <AnimatedCounter
