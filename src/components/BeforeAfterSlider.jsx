@@ -62,7 +62,7 @@ export function BeforeAfterSlider() {
             {/* COUCHE 1 : PHOTO APRÈS (Fond complet) */}
             <div className="absolute inset-0 w-full h-full bg-slate-900">
               <img
-                src="/images/after-luxury-room.jpg"
+                src="/images/after-luxury-room.webp"
                 alt="Après : Salon de luxe avec faux-plafond staff LED et peinture velours par Golden Gate"
                 className="w-full h-full object-cover object-center pointer-events-none"
                 draggable={false}
@@ -79,7 +79,7 @@ export function BeforeAfterSlider() {
               style={{ clipPath: `polygon(0 0, ${sliderPos}% 0, ${sliderPos}% 100%, 0 100%)` }}
             >
               <img
-                src="/images/before-raw-room.jpg"
+                src="/images/before-raw-room.webp"
                 alt="Avant : Chantier brut en parpaings non peints et câbles électriques"
                 className="w-full h-full object-cover object-center pointer-events-none"
                 draggable={false}

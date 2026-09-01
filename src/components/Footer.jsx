@@ -19,6 +19,8 @@ export function Footer() {
               <img
                 src="/logo.webp"
                 alt="Golden Gate Logo"
+                width="144"
+                height="48"
                 className="h-10 sm:h-12 w-auto object-contain"
                 loading="lazy"
               />
@@ -62,9 +64,9 @@ export function Footer() {
             
             {/* Sous-colonne A : Pages du Site */}
             <div className="space-y-3">
-              <h4 className="text-xs font-bold uppercase tracking-wider text-slate-900 font-serif">
+              <h3 className="text-xs font-bold uppercase tracking-wider text-slate-900 font-serif">
                 Pages du Site
-              </h4>
+              </h3>
               <ul className="space-y-2 text-xs">
                 <li><Link to="/" className="hover:text-slate-950 font-medium transition-colors">Accueil</Link></li>
                 <li><Link to="/realisations" className="hover:text-slate-950 font-medium transition-colors">Nos Réalisations</Link></li>
@@ -76,9 +78,9 @@ export function Footer() {
 
             {/* Sous-colonne B : Prestations */}
             <div className="space-y-3">
-              <h4 className="text-xs font-bold uppercase tracking-wider text-slate-900 font-serif">
+              <h3 className="text-xs font-bold uppercase tracking-wider text-slate-900 font-serif">
                 Prestations
-              </h4>
+              </h3>
               <ul className="space-y-2 text-xs">
                 <li><Link to="/services" className="hover:text-slate-950 transition-colors">Plafonds en Staff</Link></li>
                 <li><Link to="/services" className="hover:text-slate-950 transition-colors">Gorges LED</Link></li>
@@ -93,9 +95,9 @@ export function Footer() {
 
           {/* Colonne 3 : Siège, Ateliers & Horaires (Prend 3 colonnes sur desktop) */}
           <div className="lg:col-span-3 space-y-3">
-            <h4 className="text-xs font-bold uppercase tracking-wider text-slate-900 font-serif">
+            <h3 className="text-xs font-bold uppercase tracking-wider text-slate-900 font-serif">
               Siège &amp; Ateliers
-            </h4>
+            </h3>
             
             <div className="space-y-2 text-xs text-slate-600">
               <p className="flex items-start gap-2">

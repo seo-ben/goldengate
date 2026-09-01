@@ -93,8 +93,9 @@ export function HomePage() {
               <ScrollReveal animation="slide-right" duration={800}>
                 <div className="relative aspect-[16/11] rounded-2xl overflow-hidden shadow-xl border border-slate-200 group">
                   <img
-                    src="/images/golden-gate-two.png"
+                    src="/images/golden-gate-two.webp"
                     alt="Réalisation Faux-plafond en staff et gorges LED Golden Gate"
+                    loading="lazy"
                     className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute top-4 left-4 bg-white/95 px-3.5 py-1 rounded-full text-xs font-bold text-slate-900 shadow-xs">
@@ -195,8 +196,9 @@ export function HomePage() {
               <ScrollReveal animation="slide-left" duration={800}>
                 <div className="relative aspect-[16/11] rounded-2xl overflow-hidden shadow-xl border border-slate-200 group">
                   <img
-                    src="/images/golden-gate-one.png"
+                    src="/images/golden-gate-one.webp"
                     alt="Peinture velours et finitions intérieures Golden Gate"
+                    loading="lazy"
                     className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute top-4 left-4 bg-white/95 px-3.5 py-1 rounded-full text-xs font-bold text-slate-900 shadow-xs">

@@ -59,11 +59,13 @@ export function Hero() {
           <source src="/videos/golden-gate-chantier.mp4" type="video/mp4" />
           <source src="/videos/hero-staff.mp4" type="video/mp4" />
           <source src="/videos/hero-bg.mp4" type="video/mp4" />
+          <track kind="captions" src="" label="Français" />
         </video>
 
         <img
-          src="/images/gallery/golden gate two.png"
+          src="/images/gallery/golden gate two.webp"
           alt="Staff et peinture de luxe Golden Gate à Lomé"
+          fetchPriority="high"
           className="w-full h-full object-cover object-center absolute inset-0 -z-10"
         />
 

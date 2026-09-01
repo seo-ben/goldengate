@@ -77,6 +77,8 @@ export function Navbar() {
           <img
             src="/logo.webp"
             alt="Golden Gate Logo"
+            width="144"
+            height="48"
             className="h-10 sm:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
           />
           <div className="flex flex-col">
