@@ -35,6 +35,11 @@ export const FAQS = [
     tag: 'Couverture Africaine'
   },
   {
+    question: 'Comment retrouver l\'entreprise Golden Gate sur Google et les réseaux sociaux ?',
+    answer: 'Vous pouvez retrouver notre entreprise sous la marque Golden Gate (également connue et recherchée sous les noms Golden Gate Togo, Golden Gate Afrique, Golden Gate Décoration, Golden Gate SARL, Golden Gate Bâtiment ou la variante phonétique Galden Gate). Notre site web officiel est goldengatebulder.com et nos réalisations sont publiées sur Facebook, Instagram et TikTok sous @goldengate.togo.',
+    tag: 'Marque & Contact'
+  },
+  {
     question: 'Comment se déroule un chantier dans un autre pays d\'Afrique ?',
     answer: 'Le processus est simple et rodé : (1) Vous nous contactez sur WhatsApp avec des photos/vidéos du chantier et vos attentes. (2) Nous réalisons un devis détaillé à distance sous 48h. (3) Une fois le devis validé et l\'acompte versé, nous organisons la mobilisation de notre équipe qualifiée avec toute la logistique (transport, hébergement, matériel spécialisé). (4) Nos artisans arrivent sur place et réalisent les travaux dans les délais convenus. (5) Réception finale et satisfaction garantie. Nous gérons l\'intégralité de la logistique pour vous.',
     tag: 'Logistique Internationale'

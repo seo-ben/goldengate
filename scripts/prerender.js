@@ -12,42 +12,42 @@ const ROUTES_META = [
   {
     path: '/',
     dir: '',
-    title: "Golden Gate | Peinture d'Exception, Béton Ciré, Gréx & Staff — Togo & Afrique (54 Pays)",
-    description: "Entreprise experte en faux-plafonds en staff mouluré, gorges lumineuses LED, peinture intérieure, enduits gréx & graffiato, béton ciré sol et mur, stucco vénitien et ravalement de façade. Siège à Lomé (Togo). Devis 100% gratuit sur WhatsApp.",
-    keywords: "Gréx Lomé, Graffiato Togo, Enduit gréxé Lomé, Béton ciré Lomé, Béton ciré Togo, Sol béton ciré Afrique, Peintre Lomé, Staffeur Togo, Peintre bâtiment Bénin, Staffeur Côte d'Ivoire, Faux plafond staff Lomé, Peinture villa Abidjan",
-    heading: "Peinture d'Exception, Béton Ciré, Gréx & Staff Haut de Gamme à Lomé & dans Toute l'Afrique"
+    title: "Golden Gate | Peinture d'Exception, Béton Ciré & Staff Décoratif — Togo & Afrique",
+    description: "Entreprise experte en faux-plafonds en staff mouluré, gorges lumineuses LED, peinture intérieure, enduits gréx & graffiato, béton ciré sol et mur, stucco vénitien et ravalement de façade. Siège à Lomé (Togo), interventions dans toute l'Afrique. Devis 100% gratuit sur WhatsApp.",
+    keywords: "Golden Gate, Golden Gate Afrique, Golden Gate Togo, Galden Gate, Galden Gate Afrique, Golden Gate Bulder, Golden Gate Décoration, Golden Gate SARL, Golden Gate Bâtiment, Gréx Lomé, Graffiato Togo, Enduit gréxé Lomé, Béton ciré Lomé, Béton ciré Togo, Sol béton ciré Afrique, Peintre Lomé, Staffeur Togo, Peintre bâtiment Bénin, Staffeur Côte d'Ivoire, Faux plafond staff Lomé, Peinture villa Abidjan",
+    heading: "Golden Gate — Peinture d'Exception, Béton Ciré & Staff Décoratif à Lomé & dans Toute l'Afrique"
   },
   {
     path: '/realisations',
     dir: 'realisations',
-    title: "Nos Réalisations & Chantiers | Staff, Béton Ciré, Gréx & Peinture — Lomé & Afrique",
-    description: "Découvrez plus de 160 chantiers livrés avec succès : enduits gréxés & graffiato, sols en béton ciré décoratif, faux-plafonds en staff mouluré avec gorges LED et ravalements de villas à Lomé (Togo) et dans toute l'Afrique.",
-    keywords: "Photos gréx Lomé, Photos graffiato Togo, Réalisations béton ciré Lomé, Photos faux plafond staff Togo, Chantiers staffeur Cotonou, Décoration villa Abidjan",
-    heading: "Nos Réalisations à Lomé & au Togo"
+    title: "Nos Réalisations & Chantiers | Staff, Béton Ciré & Peinture — Golden Gate Afrique",
+    description: "Découvrez nos chantiers d'exception livrés avec succès : enduits gréxés, sols en béton ciré décoratif, faux-plafonds en staff mouluré avec gorges LED et ravalements de villas à Lomé (Togo) et dans toute l'Afrique par Golden Gate.",
+    keywords: "Golden Gate, Golden Gate Afrique, Golden Gate Togo, Galden Gate, Photos gréx Lomé, Photos graffiato Togo, Réalisations béton ciré Lomé, Photos faux plafond staff Togo, Chantiers staffeur Cotonou, Décoration villa Abidjan",
+    heading: "Nos Réalisations & Chantiers d'Exception — Golden Gate Togo & Afrique"
   },
   {
     path: '/services',
     dir: 'services',
-    title: "Nos Services | Gréx & Graffiato, Béton Ciré, Staff LED & Peinture Villa | Golden Gate",
+    title: "Nos Services | Béton Ciré, Staff LED & Peinture Villa — Golden Gate Togo & Afrique",
     description: "Prestations haut de gamme de finition et décoration : enduits gréxés et graffiato pour façades, béton ciré minéral, faux-plafond en plâtre fibré staff, gorges lumineuses LED, peinture intérieure satinée, stucco vénitien et ravalement siloxane.",
-    keywords: "Gréx Lomé, Graffiato Togo, Enduit gréxé Lomé, Béton ciré Lomé, Béton ciré Togo, Sol béton ciré Afrique, Faux plafond staff LED Lomé, Stucco vénitien Cotonou",
-    heading: "Nos Prestations de Finition & Décoration"
+    keywords: "Golden Gate, Golden Gate Afrique, Golden Gate Togo, Galden Gate, Gréx Lomé, Graffiato Togo, Enduit gréxé Lomé, Béton ciré Lomé, Béton ciré Togo, Sol béton ciré Afrique, Faux plafond staff LED Lomé, Stucco vénitien Cotonou",
+    heading: "Nos Prestations de Finition & Décoration Haut de Gamme — Golden Gate"
   },
   {
     path: '/a-propos',
     dir: 'a-propos',
     title: "À Propos de Golden Gate | Maîtres Artisans Staffeurs, Peintres & Béton Ciré en Afrique",
     description: "Basée à Lomé (Togo), Golden Gate réunit des maîtres artisans spécialisés dans l'application d'exception du béton ciré, du plâtre staff et de la peinture haute finition pour villas et résidences de standing en Afrique.",
-    keywords: "Poseur béton ciré Lomé, Entreprise de peinture Lomé, Entreprise staffeur Togo, Maître staffeur Afrique, Artisans bâtiment Lomé, Golden Gate décoration",
-    heading: "L'Excellence Artisanale au Togo & sur Tout le Continent Africain"
+    keywords: "Golden Gate, Golden Gate Afrique, Golden Gate Togo, Galden Gate, Poseur béton ciré Lomé, Entreprise de peinture Lomé, Entreprise staffeur Togo, Maître staffeur Afrique, Artisans bâtiment Lomé, Golden Gate décoration",
+    heading: "L'Excellence Artisanale de Golden Gate au Togo & sur Tout le Continent Africain"
   },
   {
     path: '/contact',
     dir: 'contact',
-    title: "Contact & Devis Gratuit | Béton Ciré, Peinture & Staff — Lomé (Togo) & 54 Pays d'Afrique",
-    description: "Demandez votre devis gratuit et instantané pour votre sol en béton ciré, faux-plafond staff ou peinture villa. Équipes mobiles basées à Lomé (Togo) prêtes à intervenir dans les 54 pays d'Afrique : Bénin, Côte d'Ivoire, Sénégal, Cameroun, RDC, Gabon, etc.",
-    keywords: "Devis béton ciré Lomé, Devis béton ciré Togo, Prix m2 béton ciré Lomé, Devis peinture gratuit Lomé, Devis staffeur Togo, Contact peintre bâtiment Afrique, WhatsApp Golden Gate",
-    heading: "Demandez Votre Devis Gratuit"
+    title: "Devis Gratuit Béton Ciré, Peinture & Staff | Golden Gate Lomé (Togo) & Afrique",
+    description: "Demandez votre devis gratuit et instantané pour votre sol en béton ciré, faux-plafond staff ou peinture villa avec Golden Gate. Équipes mobiles basées à Lomé (Togo) prêtes à intervenir dans les 54 pays d'Afrique : Bénin, Côte d'Ivoire, Sénégal, Cameroun, RDC, Gabon, etc.",
+    keywords: "Golden Gate, Golden Gate Afrique, Golden Gate Togo, Galden Gate, Devis béton ciré Lomé, Devis béton ciré Togo, Prix m2 béton ciré Lomé, Devis peinture gratuit Lomé, Devis staffeur Togo, Contact peintre bâtiment Afrique, WhatsApp Golden Gate",
+    heading: "Demandez Votre Devis Gratuit avec Golden Gate"
   }
 ];
 
@@ -94,12 +94,38 @@ function prerender() {
     <meta name="twitter:description" content="${route.description}">
     <meta name="twitter:image" content="${DOMAIN}/logo.webp">
 
-    <!-- Structured Data JSON-LD pour Google Rich Snippets -->
+    <!-- Structured Data JSON-LD pour Google Rich Snippets & Brand Disambiguation -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "Golden Gate Décoration",
+      "@type": "WebSite",
+      "@id": "${DOMAIN}/#website",
+      "name": "Golden Gate",
+      "alternateName": [
+        "Golden Gate Afrique",
+        "Golden Gate Togo",
+        "Golden Gate Décoration",
+        "Golden Gate SARL",
+        "Golden Gate Bâtiment",
+        "Galden Gate",
+        "Galden Gate Afrique",
+        "Golden Gate Bulder"
+      ],
+      "url": "${canonicalUrl}",
+      "inLanguage": "fr"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HomeAndConstructionBusiness",
+      "name": "Golden Gate",
+      "alternateName": [
+        "Golden Gate Décoration & Finitions",
+        "Golden Gate Africa",
+        "Golden Gate Togo",
+        "Galden Gate Afrique"
+      ],
       "image": "${DOMAIN}/logo.webp",
       "@id": "${DOMAIN}/#organization",
       "url": "${canonicalUrl}",
@@ -136,7 +162,7 @@ function prerender() {
       <div id="seo-static-fallback" style="display:none;" aria-hidden="true">
         <h1>${route.heading}</h1>
         <p>${route.description}</p>
-        <p>Projets & Chantiers de faux-plafonds staff LED, peinture satinée, béton ciré, stucco à Lomé, Togo & dans les 54 pays d'Afrique (Bénin, Côte d'Ivoire, Sénégal, Cameroun, Gabon, RDC).</p>
+        <p>Golden Gate (aussi recherché sous les termes Golden Gate Togo, Golden Gate Afrique, Galden Gate, Galden Gate Afrique) est l'entreprise leader spécialisée dans la réalisation de travaux de peinture d'exception, faux-plafonds en plâtre staff LED, béton ciré sol et mur, stucco et ravalement de façade à Lomé (Togo) et dans les 54 pays du continent africain.</p>
       </div>
     `;
 

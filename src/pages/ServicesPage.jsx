@@ -56,7 +56,7 @@ export function ServicesPage() {
                   <div className="relative rounded-2xl overflow-hidden shadow-xl border border-slate-200 aspect-[16/11] group">
                     <img
                       src={getServiceImage(service.category)}
-                      alt={service.title}
+                      alt={`Golden Gate — Service ${service.title} (Lomé, Togo & Afrique)`}
                       className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
                     />
                     <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-md px-3.5 py-1 rounded-full text-xs font-bold text-slate-900 shadow-xs">

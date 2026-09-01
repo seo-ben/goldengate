@@ -163,7 +163,7 @@ export function RealWorkGallery({
                     {/* Image de réalisation */}
                     <img
                       src={img.src}
-                      alt={img.title}
+                      alt={`Golden Gate — ${img.title} (${img.location})`}
                       loading="lazy"
                       className="w-full h-full object-cover object-top sm:object-center transition-transform duration-700 group-hover:scale-108"
                     />
@@ -287,12 +287,12 @@ export function RealWorkGallery({
               </svg>
             </button>
 
-            {/* Feuille de fond précédente (l'ancienne photo reste en dessous pendant que la nouvelle se rabat/se plie) */}
+            {/* Feuille de fond précédente */}
             {isFlipping && prevImage && (
               <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-30 scale-[0.98] transition-opacity duration-300">
                 <img
                   src={prevImage.src}
-                  alt=""
+                  alt={`Golden Gate — ${prevImage.title}`}
                   className="max-w-full max-h-[65vh] sm:max-h-[75vh] w-auto h-auto object-contain rounded-2xl shadow-xl"
                 />
               </div>
@@ -307,7 +307,7 @@ export function RealWorkGallery({
             >
               <img
                 src={selectedImage.src}
-                alt={selectedImage.title}
+                alt={`Golden Gate — ${selectedImage.title} (${selectedImage.location})`}
                 onClick={(e) => {
                   e.stopPropagation();
                   setIsZoomed(!isZoomed);

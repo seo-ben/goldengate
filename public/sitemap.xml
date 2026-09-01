@@ -1,41 +1,178 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Page d'Accueil — Priorité maximale -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Page d'Accueil — Priorité maximale avec visuels de présentation -->
   <url>
     <loc>https://goldengatebulder.com/</loc>
-    <lastmod>2026-08-23</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://goldengatebulder.com/logo.webp</image:loc>
+      <image:title>Golden Gate — Logo Officiel Peinture &amp; Staff d'Excellence</image:title>
+      <image:caption>Logo de l'entreprise Golden Gate Décoration &amp; Finitions à Lomé, Togo (Afrique).</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://goldengatebulder.com/images/gallery/golden-gate-3.webp</image:loc>
+      <image:title>Golden Gate — Faux-Plafond Suspendu en Staff 3D à Reliefs Alvéolés</image:title>
+      <image:caption>Plafond contemporain en plâtre fibré staff sculpté avec alvéoles concaves par Golden Gate Afrique.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://goldengatebulder.com/images/gallery/golden-gate-88.webp</image:loc>
+      <image:title>Golden Gate — Peinture Intérieure Velours Blanc Satin &amp; Éclairage LED</image:title>
+      <image:caption>Application de peinture haut de gamme et finitions d'exception pour salon de standing par Golden Gate Togo.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://goldengatebulder.com/images/gallery/golden-gate-104.webp</image:loc>
+      <image:title>Golden Gate — Ravalement de Façade Villa Contemporaine avec Piscine</image:title>
+      <image:caption>Ravalement de façade hydrofuge et peinture extérieure résistanter aux UV par Golden Gate Bâtiment.</image:caption>
+    </image:image>
   </url>
 
-  <!-- Réalisations / Galerie -->
+  <!-- Page Réalisations / Galerie de Chantiers (Catalogue Complet Google Images) -->
   <url>
     <loc>https://goldengatebulder.com/realisations</loc>
-    <lastmod>2026-08-23</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+
+    <!-- Staff & Plafonds -->
+    <image:image>
+      <image:loc>https://goldengatebulder.com/images/gallery/golden%20gate%20two.webp</image:loc>
+      <image:title>Golden Gate — Terrasse de Villa &amp; Colonnes Sculptées en Staff (Lomé, Togo)</image:title>
+      <image:caption>Habillage de colonnes et piliers d'extérieur en staff mouluré par les artisans Golden Gate.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://goldengatebulder.com/images/gallery/golden-gate-101.webp</image:loc>
+      <image:title>Golden Gate — Faux-Plafond Staff à Lattes Cinétiques &amp; Spots Encastrés</image:title>
+      <image:caption>Plafond suspendu contemporain à lattes géométriques en plâtre par Golden Gate Afrique.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://goldengatebulder.com/images/gallery/golden-gate-7.webp</image:loc>
+      <image:title>Golden Gate — Plafond Décaissé Anthracite &amp; Meuble TV Staff LED</image:title>
+      <image:caption>Agencement de salon moderne avec meuble TV mural et décaissé rétroéclairé LED bleu par Golden Gate.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://goldengatebulder.com/images/gallery/golden-gate-77.webp</image:loc>
+      <image:title>Golden Gate — Double Décaissé Circulaire Rétroéclairé en Staff</image:title>
+      <image:caption>Plafond en plâtre fibré à cercles imbriqués et variation d'intensité lumineuse par Golden Gate Togo.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://goldengatebulder.com/images/gallery/golden-gate-78.webp</image:loc>
+      <image:title>Golden Gate — Gorge Lumineuse en Vague Ondulée en Plâtre Staff</image:title>
+      <image:caption>Plafond artistique aux courbes fluides rétroéclairé LED par Golden Gate Décoration.</image:caption>
+    </image:image>
+
+    <!-- Peinture Intérieure -->
+    <image:image>
+      <image:loc>https://goldengatebulder.com/images/gallery/golden-gate-105.webp</image:loc>
+      <image:title>Golden Gate — Patio Intérieur &amp; Peinture Extra-Blanche Villa de Standing</image:title>
+      <image:caption>Mise en peinture blanc satiné et finitions sous puits de lumière par Golden Gate Bâtiment.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://goldengatebulder.com/images/gallery/golden-gate-107.webp</image:loc>
+      <image:title>Golden Gate — Couloir Contemporain &amp; Peinture Mate Sans Trace</image:title>
+      <image:caption>Peinture intérieure soignée et lanterneaux de toit par Golden Gate Afrique.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://goldengatebulder.com/images/gallery/golden-gate-112.webp</image:loc>
+      <image:title>Golden Gate — Peinture Mat Crème &amp; Suspensions Lumineuses Design</image:title>
+      <image:caption>Finition murale mate soyeuse ton crème pour résidence de luxe par Golden Gate Togo.</image:caption>
+    </image:image>
+
+    <!-- Façades & Extérieurs -->
+    <image:image>
+      <image:loc>https://goldengatebulder.com/images/gallery/golden-gate-111.webp</image:loc>
+      <image:title>Golden Gate — Ravalement de Façade Villa R+1 Blanche &amp; Grise</image:title>
+      <image:caption>Ravalement complet de façade avec colonne décorative en staff par Golden Gate SARL.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://goldengatebulder.com/images/gallery/golden-gate-114.webp</image:loc>
+      <image:title>Golden Gate — Éclairage Nocturne &amp; Peinture Façade de Prestige</image:title>
+      <image:caption>Mise en valeur lumineuse et peinture résistant aux pluies tropicales par Golden Gate.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://goldengatebulder.com/images/gallery/golden-gate-6.webp</image:loc>
+      <image:title>Golden Gate — Enduit Crépi Ocre Sable Hydrofuge pour Façade</image:title>
+      <image:caption>Crépi gratté rustique haute protection contre l'humidité par Golden Gate Afrique.</image:caption>
+    </image:image>
+
+    <!-- Béton Ciré & Stucco -->
+    <image:image>
+      <image:loc>https://goldengatebulder.com/images/gallery/golden-gate-102.webp</image:loc>
+      <image:title>Golden Gate — Stucco Vénitien Blanc Nacre Effet Marbre de Carrare</image:title>
+      <image:caption>Enduit mural stuc lissé à la truelle italienne par maître artisan Golden Gate Togo.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://goldengatebulder.com/images/gallery/golden-gate-106.webp</image:loc>
+      <image:title>Golden Gate — Sol &amp; Mur en Béton Ciré Minéral Brun Mousseux</image:title>
+      <image:caption>Application de béton ciré décoratif haut de gamme pour intérieur moderne par Golden Gate.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://goldengatebulder.com/images/gallery/golden-gate-110.webp</image:loc>
+      <image:title>Golden Gate — Stucco Terracotta &amp; Sol Époxy Noir Brillant Miroir</image:title>
+      <image:caption>Revêtement décoratif stuc nuagé et résine coulée haute brillance par Golden Gate Afrique.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://goldengatebulder.com/images/gallery/golden-gate-113.webp</image:loc>
+      <image:title>Golden Gate — Sol Béton Ciré &amp; Résine Époxy Bleu Lagon Miroir</image:title>
+      <image:caption>Sol décoratif coulé bleu turquoise d'exception réalisé par Golden Gate Décoration.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://goldengatebulder.com/images/gallery/golden-gate-8.webp</image:loc>
+      <image:title>Golden Gate — Stucco Vénitien Marbre Onyx aux Veinures Dorées</image:title>
+      <image:caption>Travail d'artisanat d'art en stuc poli avec veinures dorées par Golden Gate Togo.</image:caption>
+    </image:image>
+
+    <!-- Coulisses Chantier -->
+    <image:image>
+      <image:loc>https://goldengatebulder.com/images/gallery/golden%20gate%20one%20.webp</image:loc>
+      <image:title>Golden Gate — Peinture au Pistolet Airless sur Portail Métallique</image:title>
+      <image:caption>Application de peinture anticorrosion haute pression par l'équipe Golden Gate Bâtiment.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://goldengatebulder.com/images/gallery/golden-gate-103.webp</image:loc>
+      <image:title>Golden Gate — Artisans Compagnons sur Échafaudage Peinture Staff</image:title>
+      <image:caption>Travaux de peinture et finition de plafond suspendu en staff par l'équipe Golden Gate.</image:caption>
+    </image:image>
   </url>
 
   <!-- Services détaillés -->
   <url>
     <loc>https://goldengatebulder.com/services</loc>
-    <lastmod>2026-08-23</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://goldengatebulder.com/images/gallery/golden-gate-3.webp</image:loc>
+      <image:title>Golden Gate Services — Faux-Plafonds Staff &amp; Gorges LED</image:title>
+      <image:caption>Service de conception et pose de faux-plafonds décoratifs en staff par Golden Gate Afrique.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://goldengatebulder.com/images/gallery/golden-gate-106.webp</image:loc>
+      <image:title>Golden Gate Services — Béton Ciré Minéral Sol &amp; Mur</image:title>
+      <image:caption>Service de pose de béton ciré décoratif pour sols et murs par Golden Gate Togo.</image:caption>
+    </image:image>
   </url>
 
   <!-- À Propos -->
   <url>
     <loc>https://goldengatebulder.com/a-propos</loc>
-    <lastmod>2026-08-23</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://goldengatebulder.com/images/gallery/golden-gate-103.webp</image:loc>
+      <image:title>Golden Gate À Propos — Équipe de Maîtres Artisans Staffeurs &amp; Peintres</image:title>
+      <image:caption>Présentation des compagnons et maîtres staffeurs de Golden Gate à Lomé, Togo.</image:caption>
+    </image:image>
   </url>
 
   <!-- Contact & Devis -->
   <url>
     <loc>https://goldengatebulder.com/contact</loc>
-    <lastmod>2026-08-23</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

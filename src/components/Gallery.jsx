@@ -79,7 +79,7 @@ export function Gallery() {
                 <div className="relative aspect-[16/10] w-full overflow-hidden bg-slate-950 border-b border-slate-800">
                   <img
                     src={project.image}
-                    alt={project.title}
+                    alt={`Golden Gate — ${project.title} (${project.location})`}
                     className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-110"
                     loading="lazy"
                   />
@@ -184,7 +184,7 @@ export function Gallery() {
               <div className="relative aspect-[16/10] w-full rounded-2xl overflow-hidden bg-slate-950 border border-slate-800 shadow-2xl">
                 <img
                   src={activeProject.image}
-                  alt={activeProject.title}
+                  alt={`Golden Gate — ${activeProject.title} (${activeProject.location})`}
                   className="w-full h-full object-cover object-center"
                 />
               </div>

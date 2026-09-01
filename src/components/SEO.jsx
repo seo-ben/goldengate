@@ -4,9 +4,9 @@ import { Helmet } from 'react-helmet-async';
 const DOMAIN = 'https://goldengatebulder.com';
 
 export function SEO({
-  title = "Golden Gate | Peinture d'Exception, Béton Ciré & Staff Haut de Gamme — Togo & Toute l'Afrique (54 Pays)",
+  title = "Golden Gate | Peinture d'Exception, Béton Ciré & Staff Décoratif — Togo & Afrique",
   description = "Entreprise experte en faux-plafonds en staff mouluré, gorges lumineuses LED, peinture intérieure haute définition, béton ciré sol et mur, stucco vénitien et ravalement de façade. Siège à Lomé (Togo), interventions dans les 54 pays d'Afrique. Devis 100% gratuit sur WhatsApp.",
-  keywords = "Béton ciré Lomé, Béton ciré Togo, Sol béton ciré Afrique, Peintre Lomé, Staffeur Togo, Peintre bâtiment Bénin, Staffeur Côte d'Ivoire, Faux plafond staff Lomé, Peinture villa Abidjan, Peintre Dakar Sénégal, Staffeur Douala Cameroun, Faux plafond Libreville Gabon, Peinture villa Kinshasa RDC",
+  keywords = "Golden Gate, Golden Gate Afrique, Golden Gate Togo, Galden Gate, Galden Gate Afrique, Golden Gate Bulder, Golden Gate Décoration, Golden Gate SARL, Golden Gate Bâtiment, Béton ciré Lomé, Béton ciré Togo, Sol béton ciré Afrique, Peintre Lomé, Staffeur Togo, Peintre bâtiment Bénin, Staffeur Côte d'Ivoire, Faux plafond staff Lomé, Peinture villa Abidjan",
   path = '',
   image = `${DOMAIN}/logo.webp`,
   type = 'website',
